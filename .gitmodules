@@ -46,3 +46,6 @@
 [submodule "PSP"]
 	path = PSP
 	url = git@github.com:WindhoverLabs/cfs-psp.git
+[submodule "Sage"]
+	path = Sage
+	url = git@github.com:WindhoverLabs/Sage.git
