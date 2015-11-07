@@ -87,7 +87,7 @@ export APP_DIR=$CFS_MISSION/apps
 # CFE_DIR is the location of the core flight executive (cFE)
 # This variable is typically set to $CFS_MISSION/cfe
 #
-export CFE_DIR=$CFS_MISSION/cfe
+export CFE_DIR=$CFS_MISSION/CFE
 
 #
 # Variable: OSAL_DIR
@@ -95,7 +95,7 @@ export CFE_DIR=$CFS_MISSION/cfe
 # OSAL_DIR is the location of the OS Abstraction Layer (OSAL)
 # This variable is typically set to $CFS_MISSION/osal
 #
-export OSAL_DIR=$CFS_MISSION/osal
+export OSAL_DIR=$CFS_MISSION/OSAL
 
 #
 # Variable: PSP_DIR
@@ -103,7 +103,7 @@ export OSAL_DIR=$CFS_MISSION/osal
 # PSP_DIR is the location of the Platform Support Package (PSP)
 # This variable is typically set to $CFS_MISSION/psp
 #
-export PSP_DIR=$CFS_MISSION/psp
+export PSP_DIR=$CFS_MISSION/PSP
 
 
 ###############################################################################

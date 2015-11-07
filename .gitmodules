@@ -29,7 +29,7 @@
 	path = apps/SC
 	url = git@github.com:WindhoverLabs/cfs-sc.git
 [submodule "apps/SCH"]
-	path = apps/SCH
+	path = apps/sch
 	url = git@github.com:WindhoverLabs/cfs-sch.git
 [submodule "apps/CmdIn"]
 	path = apps/CmdIn
