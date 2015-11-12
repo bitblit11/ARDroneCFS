@@ -1,0 +1,2 @@
+/usr/bin/ar cr libCFE_EVS_LIB.a  CMakeFiles/CFE_EVS_LIB.dir/cfe_evs_log.c.o CMakeFiles/CFE_EVS_LIB.dir/cfe_evs_task.c.o CMakeFiles/CFE_EVS_LIB.dir/cfe_evs_utils.c.o CMakeFiles/CFE_EVS_LIB.dir/cfe_evs.c.o
+/usr/bin/ranlib libCFE_EVS_LIB.a

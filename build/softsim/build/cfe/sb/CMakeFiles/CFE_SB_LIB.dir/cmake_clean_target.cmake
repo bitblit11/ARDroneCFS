@@ -1,0 +1,3 @@
+FILE(REMOVE_RECURSE
+  "libCFE_SB_LIB.a"
+)

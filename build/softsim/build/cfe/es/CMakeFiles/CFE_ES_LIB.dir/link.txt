@@ -1,0 +1,2 @@
+/usr/bin/ar cr libCFE_ES_LIB.a  CMakeFiles/CFE_ES_LIB.dir/cfe_es_api.c.o CMakeFiles/CFE_ES_LIB.dir/cfe_es_apps.c.o CMakeFiles/CFE_ES_LIB.dir/cfe_es_cds_mempool.c.o CMakeFiles/CFE_ES_LIB.dir/cfe_es_cds.c.o CMakeFiles/CFE_ES_LIB.dir/cfe_es_devsvr.c.o CMakeFiles/CFE_ES_LIB.dir/cfe_es_erlog.c.o CMakeFiles/CFE_ES_LIB.dir/cfe_es_objtab.c.o CMakeFiles/CFE_ES_LIB.dir/cfe_es_perf.c.o CMakeFiles/CFE_ES_LIB.dir/cfe_es_shell.c.o CMakeFiles/CFE_ES_LIB.dir/cfe_es_start.c.o CMakeFiles/CFE_ES_LIB.dir/cfe_es_task.c.o CMakeFiles/CFE_ES_LIB.dir/cfe_esmempool.c.o
+/usr/bin/ranlib libCFE_ES_LIB.a

@@ -1,0 +1,2 @@
+/usr/bin/ar cr libOSAL_LIB.a  CMakeFiles/OSAL_LIB.dir/osapi.c.o CMakeFiles/OSAL_LIB.dir/osfileapi.c.o CMakeFiles/OSAL_LIB.dir/osfilesys.c.o CMakeFiles/OSAL_LIB.dir/osloader.c.o CMakeFiles/OSAL_LIB.dir/osnetwork.c.o CMakeFiles/OSAL_LIB.dir/ostimer.c.o
+/usr/bin/ranlib libOSAL_LIB.a

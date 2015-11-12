@@ -1,0 +1,10 @@
+/home/mbenson/git/ARDroneCFS/build/softsim/build/cfe/es/CMakeFiles/CFE_ES_LIB.dir
+/home/mbenson/git/ARDroneCFS/build/softsim/build/cfe/evs/CMakeFiles/CFE_EVS_LIB.dir
+/home/mbenson/git/ARDroneCFS/build/softsim/build/cfe/fs/CMakeFiles/CFE_FS_LIB.dir
+/home/mbenson/git/ARDroneCFS/build/softsim/build/cfe/CMakeFiles/CFE_LIB.dir
+/home/mbenson/git/ARDroneCFS/build/softsim/build/cfe/sb/CMakeFiles/CFE_SB_LIB.dir
+/home/mbenson/git/ARDroneCFS/build/softsim/build/cfe/tbl/CMakeFiles/CFE_TBL_LIB.dir
+/home/mbenson/git/ARDroneCFS/build/softsim/build/cfe/time/CMakeFiles/CFE_TIME_LIB.dir
+/home/mbenson/git/ARDroneCFS/build/softsim/build/osal/posix/CMakeFiles/OSAL_LIB.dir
+/home/mbenson/git/ARDroneCFS/build/softsim/build/psp/CMakeFiles/PSP_LIB.dir
+/home/mbenson/git/ARDroneCFS/build/softsim/build/CMakeFiles/core-bin.dir

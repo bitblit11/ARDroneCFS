@@ -1,0 +1,2 @@
+/usr/bin/ar cr libCFE_SB_LIB.a  CMakeFiles/CFE_SB_LIB.dir/cfe_sb_api.c.o CMakeFiles/CFE_SB_LIB.dir/cfe_sb_buf.c.o CMakeFiles/CFE_SB_LIB.dir/cfe_sb_init.c.o CMakeFiles/CFE_SB_LIB.dir/cfe_sb_priv.c.o CMakeFiles/CFE_SB_LIB.dir/cfe_sb_task.c.o CMakeFiles/CFE_SB_LIB.dir/cfe_sb_util.c.o
+/usr/bin/ranlib libCFE_SB_LIB.a

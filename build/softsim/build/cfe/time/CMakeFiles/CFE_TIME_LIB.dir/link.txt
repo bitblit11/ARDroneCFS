@@ -1,0 +1,2 @@
+/usr/bin/ar cr libCFE_TIME_LIB.a  CMakeFiles/CFE_TIME_LIB.dir/cfe_time_api.c.o CMakeFiles/CFE_TIME_LIB.dir/cfe_time_task.c.o CMakeFiles/CFE_TIME_LIB.dir/cfe_time_tone.c.o CMakeFiles/CFE_TIME_LIB.dir/cfe_time_utils.c.o
+/usr/bin/ranlib libCFE_TIME_LIB.a

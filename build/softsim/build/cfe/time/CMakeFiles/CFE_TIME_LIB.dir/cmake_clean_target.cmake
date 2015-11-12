@@ -1,0 +1,3 @@
+FILE(REMOVE_RECURSE
+  "libCFE_TIME_LIB.a"
+)
