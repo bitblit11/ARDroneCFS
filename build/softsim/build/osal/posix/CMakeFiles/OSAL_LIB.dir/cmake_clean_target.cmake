@@ -1,3 +1,0 @@
-FILE(REMOVE_RECURSE
-  "libOSAL_LIB.a"
-)

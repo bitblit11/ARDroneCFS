@@ -1,2 +1,0 @@
-/usr/bin/ar cr libCFE_FS_LIB.a  CMakeFiles/CFE_FS_LIB.dir/cfe_fs_api.c.o CMakeFiles/CFE_FS_LIB.dir/cfe_fs_decompress.c.o CMakeFiles/CFE_FS_LIB.dir/cfe_fs_priv.c.o
-/usr/bin/ranlib libCFE_FS_LIB.a

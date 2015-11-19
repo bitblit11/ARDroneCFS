@@ -1,0 +1,46 @@
+CFE_LIB, /cf/apps/cfs_lib.so, 	CFS_LibInit,     CFS_LIB,	0,     0, 0x0, 0;
+CFE_APP, /cf/apps/libSCH.so,   	SCH_AppMain,     SCH,       34,  4096, 0x0, 0;
+CFE_APP, /cf/apps/to.so, 		TO_AppMain,      TO,		80, 32768, 0x0, 0;
+CFE_APP, /cf/apps/ci.so, 		CI_AppMain,      CI,		43, 32768, 0x0, 0;
+CFE_APP, /cf/apps/eim.so, 		EIM_AppMain,     EIM,		40, 32768, 0x0, 0;
+CFE_APP, /cf/apps/cf.so,	CF_AppMain,	 CF,	    50, 32768, 0x0, 0;
+CFE_APP, /cf/apps/hk.so,      	HK_AppMain,      HK,        70, 32768, 0x0, 0;
+CFE_APP, /cf/apps/fm.so,     	FM_AppMain,   	 FM,		65, 32768, 0x0, 0;
+CFE_APP, /cf/apps/cs.so,     	CS_AppMain,   	 CS,		55, 32768, 0x0, 0;
+CFE_APP, /cf/apps/ds.so,     	DS_AppMain,   	 DS,		60,	32768, 0x0, 0;
+CFE_APP, /cf/apps/lc.so,     	LC_AppMain,   	 LC,		94, 32768, 0x0, 0;
+CFE_APP, /cf/apps/md.so,     	MD_AppMain,   	 MD,		85, 32768, 0x0, 0;
+CFE_APP, /cf/apps/mm.so,        MM_AppMain,      MM,        88, 32768, 0x0, 0;
+CFE_APP, /cf/apps/sc.so,        SC_AppMain,      SC,        91, 32768, 0x0, 0;
+CFE_APP, /cf/apps/hs.so,        HS_AppMain,      HS,        123, 32768, 0x0, 0;
+!CFE_APP, /cf/apps/navspark.so,  NavSpark_AppMain, NAVSPARK, 45, 32768, 0x0, 0;
+!CFE_APP, /cf/apps/navspark.so,  NavSpark_AppMain, NAVSPARK, 45, 32768, 0x0, 0;
+!CFE_APP, /cf/apps/gn.so,        GN_AppMain,     SBN,       43, 32768, 0x0, 0;
+!CFE_APP, /cf/apps/fixhawk.so,   FixHawk_AppMain, FIXHAWK,   40, 32768, 0x0, 0;
+!CFE_APP, /cf/apps/nav.so,       NAV_AppMain,    NAV,       90, 32768, 0x0, 0;
+!CFE_APP, /cf/apps/sbn.so,       SBN_AppMain,    SBN,       37, 32768, 0x0, 0;
+!
+! Startup script fields:
+! 1. Object Type      -- CFE_APP for an Application, or CFE_LIB for a library.
+! 2. Path/Filename    -- This is a cFE Virtual filename, not a vxWorks device/pathname
+! 3. Entry Point      -- This is the "main" function for Apps.
+! 4. CFE Name         -- The cFE name for the the APP or Library
+! 5. Priority         -- This is the Priority of the App, not used for Library
+! 6. Stack Size       -- This is the Stack size for the App, not used for the Library
+! 7. Load Address     -- This is the Optional Load Address for the App or Library. Currently not implemented
+!                        so keep it at 0x0.
+! 8. Exception Action -- This is the Action the cFE should take if the App has an exception.
+!                        0        = Just restart the Application 
+!                        Non-Zero = Do a cFE Processor Reset
+!
+! Other  Notes:
+! 1. The software will not try to parse anything after the first '!' character it sees. That
+!    is the End of File marker.
+! 2. Common Application file extensions: 
+!    Linux = .so  ( ci.so )
+!    OS X  = .bundle  ( ci.bundle )
+!    Cygwin = .dll ( ci.dll )
+!    vxWorks = .o ( ci.o )
+!    RTEMS with S-record Loader = .s3r ( ci.s3r )
+!    RTEMS with CEXP Loader = .o ( ci.o )
+ 

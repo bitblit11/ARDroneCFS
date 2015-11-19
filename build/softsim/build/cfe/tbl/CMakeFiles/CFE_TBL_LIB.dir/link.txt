@@ -1,2 +1,0 @@
-/usr/bin/ar cr libCFE_TBL_LIB.a  CMakeFiles/CFE_TBL_LIB.dir/cfe_tbl_api.c.o CMakeFiles/CFE_TBL_LIB.dir/cfe_tbl_internal.c.o CMakeFiles/CFE_TBL_LIB.dir/cfe_tbl_task_cmds.c.o CMakeFiles/CFE_TBL_LIB.dir/cfe_tbl_task.c.o
-/usr/bin/ranlib libCFE_TBL_LIB.a

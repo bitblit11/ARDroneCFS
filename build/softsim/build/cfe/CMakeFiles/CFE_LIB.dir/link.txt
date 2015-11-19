@@ -1,2 +1,0 @@
-/usr/bin/ar cr libCFE_LIB.a  CMakeFiles/CFE_LIB.dir/dummy.c.o
-/usr/bin/ranlib libCFE_LIB.a

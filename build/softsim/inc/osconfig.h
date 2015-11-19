@@ -48,6 +48,9 @@
 #ifndef _osconfig_
 #define _osconfig_
 
+#define OS_MAX_QUEUE_WIDTH			4
+#define OS_MAX_QUEUE_DEPTH			100
+
 /*
 ** Platform Configuration Parameters for the OS API
 */

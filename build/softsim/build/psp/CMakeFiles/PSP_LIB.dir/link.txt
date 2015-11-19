@@ -1,2 +1,0 @@
-/usr/bin/ar cr libPSP_LIB.a  CMakeFiles/PSP_LIB.dir/dummy.c.o
-/usr/bin/ranlib libPSP_LIB.a

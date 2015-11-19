@@ -1,3 +1,0 @@
-FILE(REMOVE_RECURSE
-  "libCFE_ES_LIB.a"
-)
