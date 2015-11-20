@@ -1,6 +1,0 @@
-**/CMakeCache.txt
-**/CMakeFiles/
-cfe
-**/*.cmake
-**/*_cmake
-**/Makefile

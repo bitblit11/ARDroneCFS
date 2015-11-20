@@ -118,7 +118,7 @@ export PSP_DIR=$CFS_MISSION/PSP
 # with the exception of this CFS_MISSION_INC directory.
 # This variable is typically set to $CFS_MISSION/build/mission_inc
 #
-export CFS_MISSION_INC=$CFS_MISSION/build/mission_inc
+export CFS_MISSION_INC=$CFS_MISSION/config/mission_inc
 
 #
 # Variable: CFS_APP_SRC

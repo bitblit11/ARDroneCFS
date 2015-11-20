@@ -69,14 +69,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mbenson/git/ARDroneCFS/build/softsim/CMakeFiles /home/mbenson/git/ARDroneCFS/build/softsim/CMakeFiles/progress.marks
-	$(MAKE) -f CMakeFiles/Makefile2 all
+	cd /home/mbenson/git/ARDroneCFS/build/softsim && $(CMAKE_COMMAND) -E cmake_progress_start /home/mbenson/git/ARDroneCFS/build/softsim/CMakeFiles /home/mbenson/git/ARDroneCFS/build/softsim/elf2cfetbl/src/CMakeFiles/progress.marks
+	cd /home/mbenson/git/ARDroneCFS/build/softsim && $(MAKE) -f CMakeFiles/Makefile2 elf2cfetbl/src/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mbenson/git/ARDroneCFS/build/softsim/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) -f CMakeFiles/Makefile2 clean
+	cd /home/mbenson/git/ARDroneCFS/build/softsim && $(MAKE) -f CMakeFiles/Makefile2 elf2cfetbl/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -85,83 +85,18 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /home/mbenson/git/ARDroneCFS/build/softsim && $(MAKE) -f CMakeFiles/Makefile2 elf2cfetbl/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /home/mbenson/git/ARDroneCFS/build/softsim && $(MAKE) -f CMakeFiles/Makefile2 elf2cfetbl/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/mbenson/git/ARDroneCFS/build/softsim && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
-
-#=============================================================================
-# Target rules for targets named core-bin
-
-# Build rule for target.
-core-bin: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 core-bin
-.PHONY : core-bin
-
-# fast build rule for target.
-core-bin/fast:
-	$(MAKE) -f cfe/cfe/CMakeFiles/core-bin.dir/build.make cfe/cfe/CMakeFiles/core-bin.dir/build
-.PHONY : core-bin/fast
-
-#=============================================================================
-# Target rules for targets named elf2cfetbl
-
-# Build rule for target.
-elf2cfetbl: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 elf2cfetbl
-.PHONY : elf2cfetbl
-
-# fast build rule for target.
-elf2cfetbl/fast:
-	$(MAKE) -f elf2cfetbl/CMakeFiles/elf2cfetbl.dir/build.make elf2cfetbl/CMakeFiles/elf2cfetbl.dir/build
-.PHONY : elf2cfetbl/fast
-
-#=============================================================================
-# Target rules for targets named SCH
-
-# Build rule for target.
-SCH: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 SCH
-.PHONY : SCH
-
-# fast build rule for target.
-SCH/fast:
-	$(MAKE) -f sch/app/CMakeFiles/SCH.dir/build.make sch/app/CMakeFiles/SCH.dir/build
-.PHONY : SCH/fast
-
-#=============================================================================
-# Target rules for targets named sch_def_msgtbl
-
-# Build rule for target.
-sch_def_msgtbl: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sch_def_msgtbl
-.PHONY : sch_def_msgtbl
-
-# fast build rule for target.
-sch_def_msgtbl/fast:
-	$(MAKE) -f sch/app/CMakeFiles/sch_def_msgtbl.dir/build.make sch/app/CMakeFiles/sch_def_msgtbl.dir/build
-.PHONY : sch_def_msgtbl/fast
-
-#=============================================================================
-# Target rules for targets named sch_def_schtbl
-
-# Build rule for target.
-sch_def_schtbl: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sch_def_schtbl
-.PHONY : sch_def_schtbl
-
-# fast build rule for target.
-sch_def_schtbl/fast:
-	$(MAKE) -f sch/app/CMakeFiles/sch_def_schtbl.dir/build.make sch/app/CMakeFiles/sch_def_schtbl.dir/build
-.PHONY : sch_def_schtbl/fast
 
 # Help Target
 help:
@@ -171,11 +106,6 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... core-bin"
-	@echo "... elf2cfetbl"
-	@echo "... SCH"
-	@echo "... sch_def_msgtbl"
-	@echo "... sch_def_schtbl"
 .PHONY : help
 
 
@@ -187,6 +117,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/mbenson/git/ARDroneCFS/build/softsim && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

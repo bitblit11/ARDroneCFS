@@ -81,7 +81,7 @@ environment/project/cdt.managedbuild.toolchain.gnu.base.548937640/CFS_MISSION/op
 environment/project/cdt.managedbuild.toolchain.gnu.base.548937640/CFS_MISSION/value=${ProjDirPath}
 environment/project/cdt.managedbuild.toolchain.gnu.base.548937640/CFS_MISSION_INC/delimiter=\:
 environment/project/cdt.managedbuild.toolchain.gnu.base.548937640/CFS_MISSION_INC/operation=replace
-environment/project/cdt.managedbuild.toolchain.gnu.base.548937640/CFS_MISSION_INC/value=${CFS_MISSION}/build/mission_inc
+environment/project/cdt.managedbuild.toolchain.gnu.base.548937640/CFS_MISSION_INC/value=${CFS_MISSION}/config/mission_inc
 environment/project/cdt.managedbuild.toolchain.gnu.base.548937640/MISSION/delimiter=\:
 environment/project/cdt.managedbuild.toolchain.gnu.base.548937640/MISSION/operation=append
 environment/project/cdt.managedbuild.toolchain.gnu.base.548937640/MISSION/value=CFE_TST

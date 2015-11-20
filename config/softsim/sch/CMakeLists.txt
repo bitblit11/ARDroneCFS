@@ -4,10 +4,10 @@ cmake_minimum_required(VERSION 2.8)
 set(APP_FILE SCH)
 
 # Set path to the tables source code directory.
-set(TABLE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../tables)
+set(TABLE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/tables)
 	
 # Process build dependent CMake file in build directory.
-add_subdirectory(../src custom)
+add_subdirectory(src custom)
 
 # Process build independent CMake file in application directory.
-add_subdirectory(../../../../apps/SCH/fsw/for_build app)
+add_subdirectory($ENV{CFS_APP_SRC}/SCH/fsw/for_build app)
