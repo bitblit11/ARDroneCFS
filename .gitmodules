@@ -1,35 +1,35 @@
 [submodule "apps/CF"]
-	path = apps/CF
+	path = apps/cf
 	url = git@github.com:WindhoverLabs/cfs-cf.git
 [submodule "apps/CS"]
-	path = apps/CS
+	path = apps/cs
 	url = git@github.com:WindhoverLabs/cfs-cs.git
 [submodule "apps/DS"]
-	path = apps/DS
+	path = apps/ds
 	url = git@github.com:WindhoverLabs/cfs-ds.git
 [submodule "apps/FM"]
-	path = apps/FM
+	path = apps/fm
 	url = git@github.com:WindhoverLabs/cfs-fm.git
 [submodule "apps/HK"]
-	path = apps/HK
+	path = apps/hk
 	url = git@github.com:WindhoverLabs/cfs-hk.git
 [submodule "apps/HS"]
-	path = apps/HS
+	path = apps/hs
 	url = git@github.com:WindhoverLabs/cfs-hs.git
 [submodule "apps/LC"]
-	path = apps/LC
+	path = apps/lc
 	url = git@github.com:WindhoverLabs/cfs-lc.git
 [submodule "apps/MD"]
-	path = apps/MD
+	path = apps/md
 	url = git@github.com:WindhoverLabs/cfs-md.git
 [submodule "apps/SBN"]
-	path = apps/SBN
+	path = apps/sbn
 	url = git@github.com:WindhoverLabs/cfs-sbn.git
 [submodule "apps/SC"]
-	path = apps/SC
+	path = apps/sc
 	url = git@github.com:WindhoverLabs/cfs-sc.git
 [submodule "apps/SCH"]
-	path = apps/SCH
+	path = apps/sch
 	url = git@github.com:WindhoverLabs/cfs-sch.git
 [submodule "apps/CmdIn"]
 	path = apps/CmdIn

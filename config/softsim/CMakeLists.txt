@@ -1,24 +1,32 @@
 cmake_minimum_required(VERSION 2.8)
 
-#Set the PSP and OS
+# Set the PSP and OS
 set(PSP "pc-linux")
 set(OS "posix")
 
-#Set the directory where all the build products are going to go.
+# Set the directory where all the build products are going to go.
 set(INSTALL_DIR	${CMAKE_CURRENT_SOURCE_DIR}/sysroot/cf/apps)
 
-#Set the path to the elf2cfetbl utility
+# Set the path to the elf2cfetbl utility
 set(ELF2CFETBL_PATH ${CMAKE_CURRENT_SOURCE_DIR}/elf2cfetbl)
 
-#Include the global mission and build specific include directories.
+# Include the global mission and build specific include directories.
 include_directories(inc)
 include_directories($ENV{CFS_MISSION_INC})
 
-#Build the main CFE executable file.
+# Build the main CFE executable file.
 add_subdirectory(cfe cfe)
 
-#Build the elf2cfetbl utility
+# Build the elf2cfetbl utility
 add_subdirectory(elf2cfetbl elf2cfetbl)
 
-#Build each application and associated table(s)
+# Build each application and associated table(s)
 add_subdirectory(sch sch)
+
+# Add target to generate all documentation.
+add_custom_target(docs
+    COMMENT "Generating all documentation." VERBATIM
+	COMMAND make cfe-docs
+	COMMAND make sch-docs
+    WORKING_DIRECTORY ${CMAKE_BINARY_DIR}/
+)

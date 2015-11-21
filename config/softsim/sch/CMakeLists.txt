@@ -10,4 +10,4 @@ set(TABLE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/tables)
 add_subdirectory(src custom)
 
 # Process build independent CMake file in application directory.
-add_subdirectory($ENV{CFS_APP_SRC}/SCH/fsw/for_build app)
+add_subdirectory($ENV{CFS_APP_SRC}/sch/fsw/for_build app)
