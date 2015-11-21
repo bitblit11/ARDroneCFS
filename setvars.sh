@@ -47,6 +47,8 @@
 # DCR8291:1 Added MISSION_TEMPLATE_VERSION and change history log
 #
 
+export CPUNAME=softsim
+
 #
 # Variable: EXCLUDE_CFE_TBL
 #
