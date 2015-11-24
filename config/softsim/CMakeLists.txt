@@ -1,5 +1,9 @@
 cmake_minimum_required(VERSION 2.8)
 
+project(ARDroneCFS)
+set(PROJECT_SOURCE_DIR $ENV{CFS_MISSION})
+enable_testing()
+
 # Set the PSP and OS
 set(PSP "pc-linux")
 set(OS "posix")
