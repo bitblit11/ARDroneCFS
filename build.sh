@@ -1,9 +1,5 @@
 #!/bin/bash
 git submodule update --init --recursive
+source setvars.sh
 cd config/softsim
-mkdir build
-cd build
-rm -Rf *
-cmake ..
-make
-
+./build.sh
