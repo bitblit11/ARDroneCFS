@@ -1,24 +1,19 @@
-CFE_LIB, /cf/apps/cfs_lib.so, 	CFS_LibInit,     CFS_LIB,	0,     0, 0x0, 0;
+CFE_LIB, /cf/apps/libCFSLIB.so,	CFS_LibInit,     CFS_LIB,	0,     0, 0x0, 0;
 CFE_APP, /cf/apps/libSCH.so,   	SCH_AppMain,     SCH,       34,  4096, 0x0, 0;
-CFE_APP, /cf/apps/to.so, 		TO_AppMain,      TO,		80, 32768, 0x0, 0;
-CFE_APP, /cf/apps/ci.so, 		CI_AppMain,      CI,		43, 32768, 0x0, 0;
-CFE_APP, /cf/apps/eim.so, 		EIM_AppMain,     EIM,		40, 32768, 0x0, 0;
-CFE_APP, /cf/apps/cf.so,	CF_AppMain,	 CF,	    50, 32768, 0x0, 0;
-CFE_APP, /cf/apps/hk.so,      	HK_AppMain,      HK,        70, 32768, 0x0, 0;
-CFE_APP, /cf/apps/fm.so,     	FM_AppMain,   	 FM,		65, 32768, 0x0, 0;
-CFE_APP, /cf/apps/cs.so,     	CS_AppMain,   	 CS,		55, 32768, 0x0, 0;
-CFE_APP, /cf/apps/ds.so,     	DS_AppMain,   	 DS,		60,	32768, 0x0, 0;
-CFE_APP, /cf/apps/lc.so,     	LC_AppMain,   	 LC,		94, 32768, 0x0, 0;
-CFE_APP, /cf/apps/md.so,     	MD_AppMain,   	 MD,		85, 32768, 0x0, 0;
-CFE_APP, /cf/apps/mm.so,        MM_AppMain,      MM,        88, 32768, 0x0, 0;
-CFE_APP, /cf/apps/sc.so,        SC_AppMain,      SC,        91, 32768, 0x0, 0;
-CFE_APP, /cf/apps/hs.so,        HS_AppMain,      HS,        123, 32768, 0x0, 0;
-!CFE_APP, /cf/apps/navspark.so,  NavSpark_AppMain, NAVSPARK, 45, 32768, 0x0, 0;
-!CFE_APP, /cf/apps/navspark.so,  NavSpark_AppMain, NAVSPARK, 45, 32768, 0x0, 0;
-!CFE_APP, /cf/apps/gn.so,        GN_AppMain,     SBN,       43, 32768, 0x0, 0;
-!CFE_APP, /cf/apps/fixhawk.so,   FixHawk_AppMain, FIXHAWK,   40, 32768, 0x0, 0;
-!CFE_APP, /cf/apps/nav.so,       NAV_AppMain,    NAV,       90, 32768, 0x0, 0;
-!CFE_APP, /cf/apps/sbn.so,       SBN_AppMain,    SBN,       37, 32768, 0x0, 0;
+CFE_APP, /cf/apps/libTLMOUT.so, TLMOUT_AppMain,  TLMOUT,	80, 32768, 0x0, 0;
+CFE_APP, /cf/apps/libCMDIN.so, 	CMDIN_AppMain,   CMDIN,		43, 32768, 0x0, 0;
+CFE_APP, /cf/apps/libCF.so,		CF_AppMain,	 	 CF,	    50, 32768, 0x0, 0;
+CFE_APP, /cf/apps/libHK.so,    	HK_AppMain,      HK,        70, 32768, 0x0, 0;
+CFE_APP, /cf/apps/libFM.so,    	FM_AppMain,   	 FM,		65, 32768, 0x0, 0;
+CFE_APP, /cf/apps/libCS.so,    	CS_AppMain,   	 CS,		55, 32768, 0x0, 0;
+CFE_APP, /cf/apps/libDS.so,    	DS_AppMain,   	 DS,		60,	32768, 0x0, 0;
+CFE_APP, /cf/apps/libLC.so,    	LC_AppMain,   	 LC,		94, 32768, 0x0, 0;
+CFE_APP, /cf/apps/libMD.so,    	MD_AppMain,   	 MD,		85, 32768, 0x0, 0;
+CFE_APP, /cf/apps/libMM.so,     MM_AppMain,      MM,        88, 32768, 0x0, 0;
+CFE_APP, /cf/apps/libSC.so,     SC_AppMain,      SC,        91, 32768, 0x0, 0;
+CFE_APP, /cf/apps/libHS.so,     HS_AppMain,      HS,        123, 32768, 0x0, 0;
+CFE_APP, /cf/apps/libEIM.so, 	EIM_AppMain,     EIM,		40, 32768, 0x0, 0;
+!CFE_APP, /cf/apps/libSBN.so,    SBN_AppMain,     SBN,       37, 32768, 0x0, 0;
 !
 ! Startup script fields:
 ! 1. Object Type      -- CFE_APP for an Application, or CFE_LIB for a library.
