@@ -1,0 +1,359 @@
+;
+; File:
+;   $Id: wakeup.in 1.3 2010/11/19 17:58:27EST aschoeni Exp  $
+;
+; Purpose: 
+;   This is the wake-up input file used to unit test the 
+;   CFS Health and Safety (HS) Application.
+;
+;   This file is used in conjunction with the utf_test_hs.c
+;   unit test driver and handles high level testing of command 
+;   processing through the HS application's software bus pipe.
+; 
+;   $Log: wakeup.in  $
+;   Revision 1.3 2010/11/19 17:58:27EST aschoeni 
+;   Added command to enable and disable CPU Hogging Monitoring
+;   Revision 1.2 2010/11/17 17:08:44EST aschoeni 
+;   updated to support cpu utilization monitoring
+;   Revision 1.1 2009/05/22 17:56:19EDT aschoeni 
+;   Initial revision
+;   Member added to project c:/MKSDATA/MKS-REPOSITORY/CFS-REPOSITORY/hs/fsw/unit_test/project.pj
+; 
+; First 'blank' read is to fail through main loop
+!
+* ********************
+* * HS Runtime Tests *
+* ********************
+*
+* ================== WAKEUP 01 ==================
+* == TASK_5 AppMon Unresolvable                ==
+* == TASK_2 AppMon Failure, MsgActs(1) NoEvent ==
+* == HK Request                                ==
+* ===============================================
+*
+* WAKE-UP
+* -------
+@INC_IDLE
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+* ================== WAKEUP 02 ==================
+* == TASK_2 AppMon Restart App                 ==
+* == TASK_5 AppMon Restart App, Unresolvable   ==
+* == TASK_3 EventMon Processor Reset           ==
+* ===============================================
+*
+* WAKE-UP
+* -------
+@INC_IDLE
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+* ================== WAKEUP 03 ==================
+* == TASK_3 AppMon Processor Reset             ==
+* == TASK_3 AppMon MsgActs(0) Event            ==
+* == HK Request                                ==
+* ===============================================
+*
+* WAKE-UP
+* -------
+@INC_IDLE
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+* ================== WAKEUP 04 ==================
+* == TASK_4 AppMon MsgActs(0) On Cooldown      ==
+* == Command and Command Error Testing         ==
+* == AppMon, EventMon and Aliveness disabled   ==
+* ===============================================
+*
+* WAKE-UP
+* -------
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+* ================== WAKEUP 05 ==================
+* == TASK_3 EventMon Processor Reset Ignored   ==
+* == More Command and Command Error Testing    ==
+* == Appmon, EventMon and Aliveness enabled    ==
+* ===============================================
+*
+* WAKE-UP
+* -------
+@INC_IDLE
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+* ================== WAKEUP 06 ==================
+* == TASK_5 AppMon Unresolvable                ==
+* == TASK_2 AppMon Failure, MsgActs(1) NoEvent ==
+* == Aliveness Indicator                       ==
+* ===============================================
+*
+* WAKE-UP
+* -------
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+* ================== WAKEUP 07 ==================
+* == TASK_2 AppMon Restart App                 ==
+* == TASK_5 AppMon Restart App, Unresolvable   ==
+* == TASK_1 EventMon Nothing                   ==
+* == TASK_1 EventMon MsgActs(1) NoEvent        ==
+* == TASK_2 EventMon Restart App               ==
+* == TASK_3 EventMon Processor Reset, Limited  ==
+* == TASK_4 EventMon Delete App                ==
+* ===============================================
+*
+* WAKE-UP
+* -------
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+* ================== WAKEUP 08 ==================
+* == TASK_3 AppMon Processor Reset, Limited    ==
+* == TASK_3 AppMon MsgActs(0) Event            ==
+* ===============================================
+*
+* WAKE-UP
+* -------
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+* ================== WAKEUP 09 ==================
+* == TASK_4 AppMon MsgActs(0) On Cooldown      ==
+* == HK Request                                ==
+* ===============================================
+*
+* WAKE-UP
+* -------
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+* ================== WAKEUP 10 ==================
+* == TASK_1 AppMon Event Only                  ==
+* == CPU Hogging Detected                      ==
+* ===============================================
+*
+* WAKE-UP
+* -------
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+* ================== WAKEUP 11 ==================
+* == Aliveness Indicator                       ==
+* == TASK_1 EventMon MsgActs(0) Event          ==
+* == TASK_1 EventMon MsgActs(0) On Cooldown    ==
+* == TASK_5 EventMon Delete App Unresolvable   ==
+* == TASK_5 EventMon Restart App Unresolvable  ==
+* == Load Bad Tables                           ==
+* ===============================================
+*
+* WAKE-UP
+* -------
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+* Load Bad Tables (Validate Validation Functions)
+* -----------------------------------------------
+@ LOAD_TABLES_FROM_GROUND 
+*
+* ================== WAKEUP 12 ==================
+* == Bad Tables are Validated and Fail         ==
+* ===============================================
+*
+* WAKE-UP
+* -------
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+* ================== WAKEUP 72 ==================
+* == Internal Array Rollover (at 65)           ==
+* ===============================================
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+@CALLBACK_SYNC
+18B0 C000 0001 0000
+*
+*
+* ***********************
+* * HS Testing Complete *
+* ***********************
+
+

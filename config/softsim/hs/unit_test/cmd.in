@@ -1,0 +1,304 @@
+;
+; File:
+;   $Id: cmd.in 1.4 2011/10/17 16:44:16EDT aschoeni Exp  $
+;
+; Purpose: 
+;   This is the command input file used to unit test the 
+;   CFS Health and Safety (HS) Application.
+;
+;   This file is used in conjunction with the utf_test_hs.c
+;   unit test driver and handles high level testing of command 
+;   processing through the HS application's software bus pipe.
+; 
+;   $Log: cmd.in  $
+;   Revision 1.4 2011/10/17 16:44:16EDT aschoeni 
+;   Updated Unit Tests
+;   Revision 1.3 2010/11/19 17:58:28EST aschoeni 
+;   Added command to enable and disable CPU Hogging Monitoring
+;   Revision 1.2 2010/11/17 17:08:42EST aschoeni 
+;   updated to support cpu utilization monitoring
+;   Revision 1.1 2009/05/22 17:56:11EDT aschoeni 
+;   Initial revision
+;   Member added to project c:/MKSDATA/MKS-REPOSITORY/CFS-REPOSITORY/hs/fsw/unit_test/project.pj
+; 
+*
+* Housekeeping Request
+* --------------------
+18AF C000 0001 0000
+!
+!
+*
+* Housekeeping Request
+* --------------------
+18AF C000 0001 0000
+!
+*
+* NOOP
+* ----
+18AE C000 0001 0000
+*
+* NOOP (Bad Length)
+* -----------------
+18AE C000 0003 0000 0000
+*
+* Reset (Bad Length)
+* ------------------
+18AE C000 0003 0100 0000
+*
+* Command (Bad CC)
+* ----------------
+18AE C000 0003 4200 0000
+*
+* Command (Bad MID)
+* -----------------
+1855 C000 0003 0100 0000
+*
+* Housekeeping Request
+* --------------------
+18AF C000 0001 0000
+*
+* Reset
+* -----
+18AE C000 0001 0100
+*
+* Housekeeping Request
+* --------------------
+18AF C000 0001 0000
+*
+* Disable AppMon
+* --------------
+18AE C000 0001 0300
+*
+* Disable EventMon (Bad UnSub)
+* ----------------------------
+@BAD_SUB
+18AE C000 0001 0500
+@BAD_SUB
+*
+* Disable EventMon
+* ----------------
+18AE C000 0001 0500
+*
+* Enable EventMon (Bad Sub)
+* -------------------------
+@BAD_SUB
+18AE C000 0001 0400
+@BAD_SUB
+*
+* Disable Aliveness
+* -----------------
+18AE C000 0001 0700
+* 
+* Disable CPU Hogging
+* -------------------
+18AE C000 0001 0B00
+*
+* Housekeeping Request
+* --------------------
+18AF C000 0001 0000
+!
+*
+* Enable AppMon
+* -------------
+18AE C000 0001 0200
+*
+* Enable EventMon
+* ---------------
+18AE C000 0001 0400
+*
+* Enable Aliveness
+* ----------------
+18AE C000 0001 0600
+*
+* Enable CPU Hogging
+* ------------------
+18AE C000 0001 0A00
+*
+* Reset Resets
+* ------------
+18AE C000 0001 0800
+*
+* Set Max Resets
+* --------------
+18AE C000 0003 0900 0000
+* 
+* Report Util Diagnostics
+* -----------------------
+18AE C000 0003 0C00 0000
+* 
+* Set Util Params
+* ---------------
+18AE C000 000D 0D00 0000 0002 0000 0001 0000 0002
+* 
+* Set Util Params (bad param)
+* ---------------------------
+18AE C000 000D 0D00 0000 0000 0000 0001 0000 0002
+* 
+* Set Util Diagnostic
+* -------------------
+18AE C000 0005 0E00 FFFF FFFF
+*
+* Disable AppMon (BadLen)
+* -----------------------
+18AE C000 0003 0300 0000
+*
+* Enable AppMon (BadLen)
+* ----------------------
+18AE C000 0003 0200 0000
+*
+* Disable EventMon (BadLen)
+* -------------------------
+18AE C000 0003 0500 0000
+*
+* Enable EventMon (BadLen)
+* ------------------------
+18AE C000 0003 0400 0000
+*
+* Disable Aliveness (BadLen)
+* --------------------------
+18AE C000 0003 0700 0000
+*
+* Enable Aliveness (BadLen)
+* -------------------------
+18AE C000 0003 0600 0000
+* 
+* Disable CPU Hogging (BadLen)
+* ----------------------------
+18AE C000 0003 0B00 0000
+* 
+* Enable CPU Hogging (BadLen)
+* ----------------------------
+18AE C000 0003 0A00 0000
+*
+* Reset Resets (BadLen)
+* ---------------------
+18AE C000 0003 0800 0000
+*
+* Set Max Resets (BadLen)
+* -----------------------
+18AE C000 0001 0900
+* 
+* Report Util Diagnostics (BadLen)
+* --------------------------------
+18AE C000 0003 0C00 0000
+* 
+* Set Util Params (BadLen)
+* ------------------------
+18AE C000 0001 0D00
+* 
+* Set Util Diagnostic (BadLen)
+* ----------------------------
+18AE C000 0001 0E00
+*
+* Housekeeping Request (BadLen)
+* -----------------------------
+18AF C000 0003 0000 0000
+*
+* Housekeeping Request
+* --------------------
+18AF C000 0001 0000
+*
+!
+!
+!
+!
+*
+* Housekeeping Request
+* --------------------
+18AF C000 0001 0000
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+
+
