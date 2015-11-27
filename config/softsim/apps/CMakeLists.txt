@@ -9,6 +9,7 @@ add_subdirectory(hk hk)
 add_subdirectory(hs hs)
 add_subdirectory(lc lc)
 add_subdirectory(md md)
+add_subdirectory(mm mm)
 #add_subdirectory(sbn sbn)
 add_subdirectory(sc sc)
 add_subdirectory(sch sch)
@@ -26,6 +27,7 @@ add_custom_target(docs
 	COMMAND make hs-docs
 	COMMAND make lc-docs
 	COMMAND make md-docs
+	COMMAND make mm-docs
 	COMMAND make sc-docs
 	COMMAND make sch-docs
     WORKING_DIRECTORY ${CMAKE_BINARY_DIR}/

@@ -49,3 +49,6 @@
 [submodule "Sage"]
 	path = Sage
 	url = git@github.com:WindhoverLabs/Sage.git
+[submodule "apps/mm"]
+	path = apps/mm
+	url = git@github.com:WindhoverLabs/cfs-mm.git
