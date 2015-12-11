@@ -1,54 +1,54 @@
 [submodule "apps/CF"]
 	path = apps/cf
-	url = git@github.com:WindhoverLabs/cfs-cf.git
+	url = https://github.com/WindhoverLabs/cfs-cf.git
 [submodule "apps/CS"]
 	path = apps/cs
-	url = git@github.com:WindhoverLabs/cfs-cs.git
+	url = https://github.com/WindhoverLabs/cfs-cs.git
 [submodule "apps/DS"]
 	path = apps/ds
-	url = git@github.com:WindhoverLabs/cfs-ds.git
+	url = https://github.com/WindhoverLabs/cfs-ds.git
 [submodule "apps/FM"]
 	path = apps/fm
-	url = git@github.com:WindhoverLabs/cfs-fm.git
+	url = https://github.com/WindhoverLabs/cfs-fm.git
 [submodule "apps/HK"]
 	path = apps/hk
-	url = git@github.com:WindhoverLabs/cfs-hk.git
+	url = https://github.com/WindhoverLabs/cfs-hk.git
 [submodule "apps/HS"]
 	path = apps/hs
-	url = git@github.com:WindhoverLabs/cfs-hs.git
+	url = https://github.com/WindhoverLabs/cfs-hs.git
 [submodule "apps/LC"]
 	path = apps/lc
-	url = git@github.com:WindhoverLabs/cfs-lc.git
+	url = https://github.com/WindhoverLabs/cfs-lc.git
 [submodule "apps/MD"]
 	path = apps/md
-	url = git@github.com:WindhoverLabs/cfs-md.git
+	url = https://github.com/WindhoverLabs/cfs-md.git
 [submodule "apps/SBN"]
 	path = apps/sbn
-	url = git@github.com:WindhoverLabs/cfs-sbn.git
+	url = https://github.com/WindhoverLabs/cfs-sbn.git
 [submodule "apps/SC"]
 	path = apps/sc
-	url = git@github.com:WindhoverLabs/cfs-sc.git
+	url = https://github.com/WindhoverLabs/cfs-sc.git
 [submodule "apps/SCH"]
 	path = apps/sch
-	url = git@github.com:WindhoverLabs/cfs-sch.git
+	url = https://github.com/WindhoverLabs/cfs-sch.git
 [submodule "apps/CmdIn"]
 	path = apps/CmdIn
-	url = git@github.com:WindhoverLabs/CmdIn.git
+	url = https://github.com/WindhoverLabs/CmdIn.git
 [submodule "apps/TlmOut"]
 	path = apps/TlmOut
-	url = git@github.com:WindhoverLabs/TlmOut.git
+	url = https://github.com/WindhoverLabs/TlmOut.git
 [submodule "CFE"]
 	path = CFE
-	url = git@github.com:WindhoverLabs/cfs-cfe.git
+	url = https://github.com/WindhoverLabs/cfs-cfe.git
 [submodule "OSAL"]
 	path = OSAL
-	url = git@github.com:WindhoverLabs/cfs-osal.git
+	url = https://github.com/WindhoverLabs/cfs-osal.git
 [submodule "PSP"]
 	path = PSP
-	url = git@github.com:WindhoverLabs/cfs-psp.git
+	url = https://github.com/WindhoverLabs/cfs-psp.git
 [submodule "Sage"]
 	path = Sage
-	url = git@github.com:WindhoverLabs/Sage.git
+	url = https://github.com/WindhoverLabs/Sage.git
 [submodule "apps/mm"]
 	path = apps/mm
-	url = git@github.com:WindhoverLabs/cfs-mm.git
+	url = https://github.com/WindhoverLabs/cfs-mm.git
