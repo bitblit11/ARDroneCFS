@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.8)
+cmake_minimum_required(VERSION 2.6.4)
 
 set(PROJECT_SOURCE_DIR $ENV{CFS_MISSION})
 enable_testing()
