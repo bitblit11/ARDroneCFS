@@ -1,5 +1,3 @@
-cmake_minimum_required(VERSION 2.8)
-
 # Set what we're going to call the application file.
 set(APP_FILE FM)
 
