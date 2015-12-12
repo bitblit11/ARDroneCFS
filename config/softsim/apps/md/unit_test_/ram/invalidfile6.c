@@ -1,6 +1,6 @@
 /************************************************************************
 ** File:
-**   $Id: md_dw4_tbl.c 1.3 2015/03/01 17:17:24EST sstrege Exp  $
+**   $Id: invalidfile6.c 1.2 2015/03/01 17:17:48EST sstrege Exp  $
 **
 **  Copyright � 2007-2014 United States Government as represented by the 
 **  Administrator of the National Aeronautics and Space Administration. 
@@ -12,18 +12,16 @@
 **  agreement.
 **
 ** Purpose:
-**  The CFS Memory Dwell (MD) Example Dwell Table #4
+**  The CFS Memory Dwell (MD) Example Dwell Table #1
 **
 ** Notes:
 **
-** $Log: md_dw4_tbl.c  $
-** Revision 1.3 2015/03/01 17:17:24EST sstrege 
+** $Log: invalidfile6.c  $
+** Revision 1.2 2015/03/01 17:17:48EST sstrege 
 ** Added copyright information
-** Revision 1.2 2012/07/20 16:57:56EDT aschoeni 
-** Fixed compiler warnings
-** Revision 1.1 2009/10/09 17:12:01EDT aschoeni 
+** Revision 1.1 2009/10/09 17:14:49EDT aschoeni 
 ** Initial revision
-** Member added to project c:/MKSDATA/MKS-REPOSITORY/CFS-REPOSITORY/md/fsw/tables/project.pj
+** Member added to project c:/MKSDATA/MKS-REPOSITORY/CFS-REPOSITORY/md/fsw/unit_test/ram/project.pj
 **
 *************************************************************************/
 
@@ -31,7 +29,7 @@
 /************************************************************************
 ** Includes
 *************************************************************************/
-#include "../unit_test_/test_with_defaults/md_platform_cfg.h"
+#include "../../unit_test_/test_with_defaults/md_platform_cfg.h"
 #include "cfe.h"
 #include "md_tbldefs.h"
 #include "md_app.h"
@@ -39,15 +37,21 @@
 #include "cfe_tbl_filedef.h"
 
 
-MD_DwellTableLoad_t     MD_Default_Dwell4_Tbl =
+static CFE_TBL_FileDef_t CFE_TBL_FileDef =
 {
-/* Enabled State */ MD_DWELL_STREAM_DISABLED,
-#if MD_SIGNATURE_OPTION == 1  
-/* Signature     */ "Default Table 4",
+    "MD_Default_Dwell1_Tbl", "MD.DWELL_TABLE1", "MD Dwell Table 1",
+    "invalidfile6.tbl", MD_TBL_LOAD_LNGTH
+};
+
+MD_DwellTableLoad_t     MD_Default_Dwell1_Tbl =
+{
+/* Enabled State */ MD_DWELL_STREAM_ENABLED,
+#if MD_SIGNATURE_OPTION == 1
+/* Signature     */ "invalidfile6",
 #endif
 /* Entry    Length    Delay    Offset           SymName     */
-/*   1 */{{      0,       0,  {     0,               ""  }   },
-/*   2 */ {      0,       0,  {     0,               ""  }   },
+/*   1 */{{      4,       0,  { 0x01234000,          ""  }   },
+/*   2 */ {      4,       0,  { 0x01234004,          ""  }   },
 /*   3 */ {      0,       0,  {     0,               ""  }   },
 /*   4 */ {      0,       0,  {     0,               ""  }   },
 /*   5 */ {      0,       0,  {     0,               ""  }   },
@@ -74,9 +78,4 @@ MD_DwellTableLoad_t     MD_Default_Dwell4_Tbl =
 }
 };
 
-CFE_TBL_FILEDEF(MD_Default_Dwell4_Tbl, MD.DWELL_TABLE4, MD Dwell Table 4,md_dw4_tbl.tbl)
-
 /************************/
-/*  End of File Comment */
-/************************/
-

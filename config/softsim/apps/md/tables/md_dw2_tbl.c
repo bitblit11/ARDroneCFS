@@ -2,7 +2,7 @@
 ** File:
 **   $Id: md_dw2_tbl.c 1.3 2015/03/01 17:17:23EST sstrege Exp  $
 **
-**  Copyright © 2007-2014 United States Government as represented by the 
+**  Copyright ï¿½ 2007-2014 United States Government as represented by the 
 **  Administrator of the National Aeronautics and Space Administration. 
 **  All Other Rights Reserved.  
 **
@@ -31,12 +31,12 @@
 /************************************************************************
 ** Includes
 *************************************************************************/
+#include "../unit_test_/test_with_defaults/md_platform_cfg.h"
 #include "cfe.h"
 #include "md_tbldefs.h"
 #include "md_app.h"
 #include "cfs_utils.h"
 #include "cfe_tbl_filedef.h"
-#include "md_platform_cfg.h"
 
 
 MD_DwellTableLoad_t     MD_Default_Dwell2_Tbl =
