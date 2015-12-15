@@ -1,0 +1,12 @@
+# Suppress warnings produced by Valgrind.
+# http://wiki.wxwidgets.org/Valgrind_Suppression_File_Howto
+{
+   # This is required due to how the unit test harness initializes and 
+   # reinitializes structs at runtime.  This is not a bug, but a false
+   # positive.
+   OS_BinSemDelete1
+   Memcheck:Cond
+   fun:OS_BinSemDelete
+   fun:UT_os_apiinit_test
+   fun:main
+}
