@@ -10,3 +10,80 @@
    fun:UT_os_apiinit_test
    fun:main
 }
+
+{
+   # This is required to get around some printf compiler optimizations
+   printf1
+   Memcheck:Value4
+   fun:_itoa_word
+   fun:vfprintf
+   fun:vsprintf
+   fun:CFE_EVS_SendEvent
+   fun:CF_VerifyCmdLength
+   fun:CF_HousekeepingCmd
+   fun:CF_AppPipe
+   fun:Test_CF_HkCmdInvLen
+   fun:UtTest_Run
+   fun:main
+}
+
+{
+   # This is required to get around some printf compiler optimizations
+   printf2
+   Memcheck:Cond
+   fun:_itoa_word
+   fun:vfprintf
+   fun:vsprintf
+   fun:CFE_EVS_SendEvent
+   fun:CF_VerifyCmdLength
+   fun:CF_HousekeepingCmd
+   fun:CF_AppPipe
+   fun:Test_CF_HkCmdInvLen
+   fun:UtTest_Run
+   fun:main
+}
+
+{
+   # This is required to get around some printf compiler optimizations
+   printf3
+   Memcheck:Cond
+   fun:vfprintf
+   fun:vsprintf
+   fun:CFE_EVS_SendEvent
+   fun:CF_VerifyCmdLength
+   fun:CF_HousekeepingCmd
+   fun:CF_AppPipe
+   fun:Test_CF_HkCmdInvLen
+   fun:UtTest_Run
+   fun:main
+}
+
+{
+   # This is required to get around some printf compiler optimizations
+   printf4
+   Memcheck:Cond
+   fun:vfprintf
+   fun:vsprintf
+   fun:CFE_EVS_SendEvent
+   fun:CF_VerifyCmdLength
+   fun:CF_HousekeepingCmd
+   fun:CF_AppPipe
+   fun:Test_CF_HkCmdInvLen
+   fun:UtTest_Run
+   fun:main
+}
+
+{
+   # This is required to get around some printf compiler optimizations
+   printf5
+   Memcheck:Cond
+   fun:vfprintf
+   fun:vsprintf
+   fun:CFE_EVS_SendEvent
+   fun:CF_VerifyCmdLength
+   fun:CF_HousekeepingCmd
+   fun:CF_AppPipe
+   fun:Test_CF_HkCmdInvLen
+   fun:UtTest_Run
+   fun:main
+}
