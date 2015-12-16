@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.6.4)
 set(PROJECT_SOURCE_DIR .)
 
-set($ENV{CPUNAME) softsim)
+set($ENV{CPUNAME} softsim)
 set($ENV{CFS_MISSION} ${CMAKE_CURRENT_BINARY_DIR})
 set($ENV{APP_DIR} $ENV{CFS_MISSION}/apps)
 set($ENV{CFE_DIR} $ENV{CFS_MISSION}/CFE)
