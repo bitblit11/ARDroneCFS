@@ -1,6 +1,0 @@
-cFE ES Unit Test Output File
-
-
-
-ut_cfe_es PASSED 364 tests.
-ut_cfe_es FAILED 0 tests.
