@@ -10,8 +10,8 @@ set(CTEST_PROJECT_NAME "ARDroneCFS")
 set(CTEST_NIGHTLY_START_TIME "00:00:00 EST")
 
 file(TO_CMAKE_PATH "${CMAKE_SOURCE_DIR}/memcheck.supp"  MEMORYCHECK_SUPPRESSIONS_FILE)
-set(VALGRIND_COMMAND_OPTIONS "-q --tool=memcheck --leak-check=yes --num-callers=50 --leak-check=full --track-origins=yes --gen-suppressions=all --xml=yes --xml-file=test.xml")
-set(MEMORYCHECK_COMMAND_OPTIONS "-q --tool=memcheck --leak-check=yes --num-callers=50 --leak-check=full --track-origins=yes --gen-suppressions=all --xml=yes --xml-file=test.xml")
+set(VALGRIND_COMMAND_OPTIONS "-q --tool=memcheck --leak-check=yes --num-callers=50 --leak-check=full --track-origins=yes --gen-suppressions=all --xml=yes --xml-file=Valgrind.xml")
+set(MEMORYCHECK_COMMAND_OPTIONS "-q --tool=memcheck --leak-check=yes --num-callers=50 --leak-check=full --track-origins=yes --gen-suppressions=all --xml=yes --xml-file=Valgrind.xml")
 #set(VALGRIND_COMMAND_OPTIONS "")
 #set(MEMORYCHECK_COMMAND_OPTIONS "")
 
