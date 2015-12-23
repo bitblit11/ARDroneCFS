@@ -1,7 +1,7 @@
 # Build each application and associated table(s)
 add_subdirectory(cfs_lib cfs_lib)
 add_subdirectory(cf cf)
-#add_subdirectory(CmdIn CmdIn)
+add_subdirectory(ci ci)
 add_subdirectory(cs cs)
 add_subdirectory(ds ds)
 add_subdirectory(fm fm)
@@ -13,7 +13,7 @@ add_subdirectory(mm mm)
 #add_subdirectory(sbn sbn)
 add_subdirectory(sc sc)
 add_subdirectory(sch sch)
-#add_subdirectory(TlmOut TlmOut)
+#add_subdirectory(to to)
 
 # Add target to generate all documentation.
 add_custom_target(docs

@@ -32,7 +32,7 @@
 	path = apps/sch
 	url = https://github.com/WindhoverLabs/cfs-sch.git
 [submodule "apps/CmdIn"]
-	path = apps/CmdIn
+	path = apps/ci
 	url = https://github.com/WindhoverLabs/CmdIn.git
 [submodule "apps/TlmOut"]
 	path = apps/TlmOut

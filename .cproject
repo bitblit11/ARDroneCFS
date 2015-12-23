@@ -18,7 +18,7 @@
 					<folderInfo id="cdt.managedbuild.toolchain.gnu.base.548937640.851334580" name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.base.2086336439" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.base">
 							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.base.1277997026" name="Debug Platform" osList="linux,hpux,aix,qnx" superClass="cdt.managedbuild.target.gnu.platform.base"/>
-							<builder buildPath="${workspace_loc:/ARDroneCFS/config/softsim/build}" command="make" id="cdt.managedbuild.target.gnu.builder.base.911669839" incrementalBuildTarget="" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" parallelBuildOn="false" superClass="cdt.managedbuild.target.gnu.builder.base"/>
+							<builder buildPath="${workspace_loc:/ARDroneCFS/build}" command="make" id="cdt.managedbuild.target.gnu.builder.base.911669839" incrementalBuildTarget="" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" parallelBuildOn="false" superClass="cdt.managedbuild.target.gnu.builder.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.base.1217052077" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.base.989377435" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.base">
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1752067893" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
