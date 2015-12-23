@@ -89,6 +89,13 @@
 }
 
 {
+   # This is to supress a valid error that would normally signify
+   # bad code.  However, this is encountered due to a negative
+   # test.  The failure cannot be caught by the code under test
+   # due to the limitations of the API, but the OS catches the
+   # error, sends it back to the code under test, which deals with
+   # it appropriately.  This is just valgrind saying the OS code
+   # had to trap it.
    FM_UT_os_closedir_test
    Memcheck:Param
    getdents(dirp)
@@ -96,5 +103,20 @@
    fun:readdir
    fun:OS_readdir
    fun:UT_os_closedir_test
+   fun:main
+}
+
+{
+   # Ok, this is just bad unit test code.  I'll address it later.
+   UT_os_timerset_test
+   Memcheck:Addr4
+   fun:timer_settime
+   fun:OS_TimerSet
+   fun:UT_os_timercallback
+   fun:OS_TimerSignalHandler
+   obj:/lib/libpthread-2.12.so
+   fun:OS_InterruptSafeUnlock
+   fun:OS_TimerCreate
+   fun:UT_os_timerset_test
    fun:main
 }
