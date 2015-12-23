@@ -87,3 +87,14 @@
    fun:UtTest_Run
    fun:main
 }
+
+{
+   FM_UT_os_closedir_test
+   Memcheck:Param
+   getdents(dirp)
+   fun:__getdents
+   fun:readdir
+   fun:OS_readdir
+   fun:UT_os_closedir_test
+   fun:main
+}
