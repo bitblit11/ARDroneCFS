@@ -118,7 +118,7 @@
 **       This parameter has a lower limit of 1 and an upper limit of 1024.
 **
 */
-#define CFE_SB_MAX_MSG_IDS              1024
+#define CFE_SB_MAX_MSG_IDS              256
 
 
 /**
@@ -189,7 +189,7 @@
 **       This parameter has a lower limit of 512 and an upper limit 4.29G bytes.
 **
 */
-#define CFE_SB_BUF_MEMORY_BYTES         2097152
+#define CFE_SB_BUF_MEMORY_BYTES         524288
 
 
 /**
@@ -338,7 +338,7 @@
 #define CFE_SB_MEM_BLOCK_SIZE_13           4096
 #define CFE_SB_MEM_BLOCK_SIZE_14           8192
 #define CFE_SB_MEM_BLOCK_SIZE_15          16384
-#define CFE_SB_MEM_BLOCK_SIZE_16          65536
+#define CFE_SB_MEM_BLOCK_SIZE_16          32768
 #define CFE_SB_MAX_BLOCK_SIZE             (CFE_SB_MAX_SB_MSG_SIZE + 40)
 
 /**
@@ -607,7 +607,7 @@
 **       There is a lower limit of 512 and an upper limit of 16384 on this
 **       configuration paramater.
 */
-#define CFE_ES_SYSTEM_LOG_SIZE  2048
+#define CFE_ES_SYSTEM_LOG_SIZE  3072
 
 
 /**
@@ -1087,7 +1087,7 @@
 **       There is a lower limit of 2048 and an upper limit of 16384 on this
 **       configuration paramater.
 */
-#define CFE_ES_DEFAULT_STACK_SIZE 16384
+#define CFE_ES_DEFAULT_STACK_SIZE 8192
 
 
 /**
@@ -1170,7 +1170,7 @@
 **       There is a lower limit of 2048 and an upper limit of 16384 on this
 **       configuration paramater.
 */
-#define CFE_ES_START_TASK_STACK_SIZE             32768
+#define CFE_ES_START_TASK_STACK_SIZE             16384
 
 /**
 **  \cfetimecfg Define TIME Task Priorities
@@ -1202,8 +1202,8 @@
 **       configuration paramaters.
 */
 #define CFE_TIME_START_TASK_STACK_SIZE            CFE_ES_DEFAULT_STACK_SIZE
-#define CFE_TIME_TONE_TASK_STACK_SIZE             16384
-#define CFE_TIME_1HZ_TASK_STACK_SIZE              16384
+#define CFE_TIME_TONE_TASK_STACK_SIZE             4096
+#define CFE_TIME_1HZ_TASK_STACK_SIZE              8192
 
 /**
 **  \cfeescfg Define TBL Task Priority
@@ -1290,7 +1290,7 @@
 #define CFE_ES_MEM_BLOCK_SIZE_14           8192
 #define CFE_ES_MEM_BLOCK_SIZE_15          16384
 #define CFE_ES_MEM_BLOCK_SIZE_16          32768
-#define CFE_ES_MAX_BLOCK_SIZE            262144
+#define CFE_ES_MAX_BLOCK_SIZE             80000
 
 
 /**
@@ -1483,7 +1483,7 @@
 **       The cFE does not place a limit on the size of this parameter but it must be
 **       less than half of #CFE_TBL_BUF_MEMORY_BYTES.
 */
-#define CFE_TBL_MAX_DBL_TABLE_SIZE    32768
+#define CFE_TBL_MAX_DBL_TABLE_SIZE    16384
 
 /**
 **  \cfetblcfg Maximum Size Allowed for a Single Buffered Table
@@ -1499,7 +1499,7 @@
 **       small enough to allow for #CFE_TBL_MAX_SIMULTANEOUS_LOADS number of tables
 **       to fit into #CFE_TBL_BUF_MEMORY_BYTES.
 */
-#define CFE_TBL_MAX_SNGL_TABLE_SIZE   32768
+#define CFE_TBL_MAX_SNGL_TABLE_SIZE   16384
 
 /**
 **  \cfetblcfg Maximum Number of Tables Allowed to be Registered
@@ -1742,5 +1742,6 @@
 **       or equal to zero.
  */
 #define CFE_ES_STARTUP_SCRIPT_TIMEOUT_MSEC  30000
+
 
 #endif

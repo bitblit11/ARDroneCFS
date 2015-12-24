@@ -10,27 +10,27 @@
 ** Notes:
 **
 ** $Log: cfe_mission_cfg.h  $
-** Revision 1.9 2011/11/30 15:13:24EST jmdagost 
+** Revision 1.9 2011/11/30 15:13:24GMT-05:00 jmdagost
 ** Changed definitions to be TRUE/FALSE instead of commenting/uncommenting them.
-** Revision 1.8 2011/02/03 15:20:10EST lwalling 
+** Revision 1.8 2011/02/03 15:20:10EST lwalling
 ** Added definition for CFE_SB_PACKET_TIME_FORMAT and list of supported selections
-** Revision 1.7 2009/06/26 10:17:13EDT rmcgraw 
+** Revision 1.7 2009/06/26 10:17:13EDT rmcgraw
 ** DCR8290:6 Comment changes
-** Revision 1.6 2009/02/26 17:45:07EST rmcgraw 
+** Revision 1.6 2009/02/26 17:45:07EST rmcgraw
 ** Member moved from ../fsw/build/inc/ to ../fsw/mission_inc/
-** Revision 1.5 2009/02/26 17:45:07ACT rmcgraw 
+** Revision 1.5 2009/02/26 17:45:07ACT rmcgraw
 ** DCR6805:1 Added comments to reflect SB cfg paramater limits
-** Revision 1.4 2008/12/08 12:07:02EST dkobe 
+** Revision 1.4 2008/12/08 12:07:02EST dkobe
 ** Updates to correct doxygen errors
-** Revision 1.3 2008/11/19 08:45:22EST wfmoleski 
+** Revision 1.3 2008/11/19 08:45:22EST wfmoleski
 ** The changes are as follows:
 ** added 6 #defines (2 for each cpu) that indicate the APPID_BASE for cmds and tlm.
-** Revision 1.2 2008/07/07 14:09:42EDT apcudmore 
+** Revision 1.2 2008/07/07 14:09:42EDT apcudmore
 ** Removed FS Message ID defines from system config files.
-** Revision 1.1 2008/04/17 08:02:33EDT ruperera 
+** Revision 1.1 2008/04/17 08:02:33EDT ruperera
 ** Initial revision
 ** Member added to /fsw/build/inc/project.pj
-** Revision 1.21 2007/09/19 15:21:16EDT rjmcgraw 
+** Revision 1.21 2007/09/19 15:21:16EDT rjmcgraw
 ** DCR4488 Removed all SB network message numbers and message ids
 ** Revision 1.20 2007/09/12 16:06:11EDT David Kobe (dlkobe)
 ** Moved the definitions of CFE_ES_CRC_xx to the cfe_mission_cfg.h file and deleted TBL Services
@@ -121,8 +121,7 @@
 **      This parameter has a lower limit of 6 (CCSDS primary header size),
 **      and an upper limit (including headers) of 32768 bytes.
 */
-#define CFE_SB_MAX_SB_MSG_SIZE         65535
-//32768
+#define CFE_SB_MAX_SB_MSG_SIZE         32768
 
 
 /**
@@ -261,7 +260,7 @@
 **      Minute - 0 to 59
 **      Second - 0 to 59
 */
-#define CFE_TIME_EPOCH_YEAR        1970
+#define CFE_TIME_EPOCH_YEAR        1980
 #define CFE_TIME_EPOCH_DAY            1
 #define CFE_TIME_EPOCH_HOUR           0
 #define CFE_TIME_EPOCH_MINUTE         0
