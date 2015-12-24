@@ -35,7 +35,7 @@
 	path = apps/ci
 	url = https://github.com/WindhoverLabs/CmdIn.git
 [submodule "apps/TlmOut"]
-	path = apps/TlmOut
+	path = apps/to
 	url = https://github.com/WindhoverLabs/TlmOut.git
 [submodule "CFE"]
 	path = CFE

@@ -13,7 +13,7 @@ add_subdirectory(mm mm)
 #add_subdirectory(sbn sbn)
 add_subdirectory(sc sc)
 add_subdirectory(sch sch)
-#add_subdirectory(to to)
+add_subdirectory(to to)
 
 # Add target to generate all documentation.
 add_custom_target(docs
