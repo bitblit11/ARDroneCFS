@@ -2,7 +2,7 @@ CFE_LIB, /cf/apps/libCFSLIB.so,	CFS_LibInit,     CFS_LIB,	0,     0, 0x0, 0;
 CFE_APP, /cf/apps/libSCH.so,   	SCH_AppMain,     SCH,       34,  4096, 0x0, 0;
 CFE_APP, /cf/apps/libTO.so,     TO_AppMain,      TO,	    80, 32768, 0x0, 0;
 CFE_APP, /cf/apps/libCI.so, 	CI_AppMain,      CI,		43, 32768, 0x0, 0;
-CFE_APP, /cf/apps/libHK.so,    	HK_AppMain,      HK,        70, 32768, 0x0, 0;
+!CFE_APP, /cf/apps/libHK.so,    	HK_AppMain,      HK,        70, 32768, 0x0, 0;
 CFE_APP, /cf/apps/libFM.so,    	FM_AppMain,   	 FM,		65, 32768, 0x0, 0;
 CFE_APP, /cf/apps/libCS.so,    	CS_AppMain,   	 CS,		55, 32768, 0x0, 0;
 CFE_APP, /cf/apps/libDS.so,    	DS_AppMain,   	 DS,		60,	32768, 0x0, 0;

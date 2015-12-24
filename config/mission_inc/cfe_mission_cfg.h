@@ -10,7 +10,7 @@
 ** Notes:
 **
 ** $Log: cfe_mission_cfg.h  $
-** Revision 1.9 2011/11/30 15:13:24GMT-05:00 jmdagost 
+** Revision 1.9 2011/11/30 15:13:24EST jmdagost 
 ** Changed definitions to be TRUE/FALSE instead of commenting/uncommenting them.
 ** Revision 1.8 2011/02/03 15:20:10EST lwalling 
 ** Added definition for CFE_SB_PACKET_TIME_FORMAT and list of supported selections
@@ -104,7 +104,7 @@
 **  \par Limits
 **      Must be defined as one of the supported formats listed above
 */
-#define CFE_SB_PACKET_TIME_FORMAT  CFE_SB_TIME_32_16_SUBS
+#define CFE_SB_PACKET_TIME_FORMAT  CFE_SB_TIME_32_32_SUBS
 
 
 /**
@@ -121,7 +121,8 @@
 **      This parameter has a lower limit of 6 (CCSDS primary header size),
 **      and an upper limit (including headers) of 32768 bytes.
 */
-#define CFE_SB_MAX_SB_MSG_SIZE         32768
+#define CFE_SB_MAX_SB_MSG_SIZE         65535
+//32768
 
 
 /**
@@ -260,7 +261,7 @@
 **      Minute - 0 to 59
 **      Second - 0 to 59
 */
-#define CFE_TIME_EPOCH_YEAR        1980
+#define CFE_TIME_EPOCH_YEAR        1970
 #define CFE_TIME_EPOCH_DAY            1
 #define CFE_TIME_EPOCH_HOUR           0
 #define CFE_TIME_EPOCH_MINUTE         0

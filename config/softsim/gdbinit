@@ -1,0 +1,2 @@
+handle SIG63 nostop noprint pass
+set env LD_PRELOAD /lib/libpthread.so.0

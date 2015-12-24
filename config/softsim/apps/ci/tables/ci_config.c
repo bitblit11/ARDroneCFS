@@ -74,8 +74,8 @@ CI_ConfigTable_t ci_ConfigTable =
 	0x1ffd,
 	1000,
 	{
-		{ CI_CHANNEL_ENABLED, 5010, 0},
-		{ CI_CHANNEL_ENABLED, 14555, 0}
+		{ CI_CHANNEL_ENABLED, 14555, 0},
+		{ CI_CHANNEL_ENABLED, 5010, 0}
 	}
 };
 
