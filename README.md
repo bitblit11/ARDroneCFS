@@ -25,5 +25,5 @@ The build system is setup to allow you to build the entire project, or smaller p
 - /&lt;softsim or ardrone&gt;/cfe/osal/unit-tests - Builds only the OS Abstraction Layer unit tests.  Unit tests are contained in their respective subdirectory.  You can rebuild individual unit tests from there.
 - /&lt;softsim or ardrone&gt;/apps - Builds only the applications.
 - /&lt;softsim or ardrone&gt;/apps/&gt;app name> - Builds only the specified application.  This is particularly useful when you start creating your own custom application.
-- /&lt;softsim or ardrone&gt;/apps/&gt;app name>/unit_test - Builds only the unit tests for the specified application.  This is also useful when you start creating your own custom application.
+- /&lt;softsim or ardrone&lt;/apps/&gt;app name>/unit_test - Builds only the unit tests for the specified application.  This is also useful when you start creating your own custom application.
 
