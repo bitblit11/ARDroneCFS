@@ -20,10 +20,10 @@ The build system is setup to allow you to build the entire project, or smaller p
 - /build - Builds everything.  This is useful when creating the initial build for the first time.
 - /softsim - Builds only the SoftSim code.
 - /ardrone - Builds only the ARDrone target code.
-- /&<softsim or ardrone>/cfe - Builds only the Core Flight Executive.
-- /&<softsim or ardrone>/cfe/cfe-ut - Builds only the Core Flight Executive unit tests.
-- /&<softsim or ardrone>/cfe/osal/unit-tests - Builds only the OS Abstraction Layer unit tests.  Unit tests are contained in their respective subdirectory.  You can rebuild individual unit tests from there.
-- /&<softsim or ardrone>/apps - Builds only the applications.
-- /&<softsim or ardrone>/apps/<app name> - Builds only the specified application.  This is particularly useful when you start creating your own custom application.
-- /&<softsim or ardrone>/apps/<app name>/unit_test - Builds only the unit tests for the specified application.  This is also useful when you start creating your own custom application.
+- /&lt;softsim or ardrone&gt;/cfe - Builds only the Core Flight Executive.
+- /&lt;softsim or ardrone&gt;/cfe/cfe-ut - Builds only the Core Flight Executive unit tests.
+- /&lt;softsim or ardrone&gt;/cfe/osal/unit-tests - Builds only the OS Abstraction Layer unit tests.  Unit tests are contained in their respective subdirectory.  You can rebuild individual unit tests from there.
+- /&lt;softsim or ardrone&gt;/apps - Builds only the applications.
+- /&lt;softsim or ardrone&gt;/apps/&gt;app name> - Builds only the specified application.  This is particularly useful when you start creating your own custom application.
+- /&lt;softsim or ardrone&gt;/apps/&gt;app name>/unit_test - Builds only the unit tests for the specified application.  This is also useful when you start creating your own custom application.
 
