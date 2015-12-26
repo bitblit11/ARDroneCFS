@@ -1,0 +1,72 @@
+<html>
+  <head>
+    <title>EIM - Phys Meas</title>
+  </head>
+  <body>
+    <div class="table-wrapper">
+      <table class="table table-striped table-condensed">
+        <caption>Effector Interface Module - NavData Physical Measurements</caption>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ground Time</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_PhysMeasures_AccsTemp.GndTime"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>UAS Time</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_PhysMeasures_AccsTemp.UASTime"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Accel Temp</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_PhysMeasures_AccsTemp"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Gyro Temp</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_PhysMeasures_GyroTemp"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Accel[0]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_PhysMeasures_PhysAccs[0]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Accel[1]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_PhysMeasures_PhysAccs[1]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Accel[2]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_PhysMeasures_PhysAccs[2]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Gyros[0]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_PhysMeasures_PhysGyros[0]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Gyros[1]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_PhysMeasures_PhysGyros[1]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Gyros[2]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_PhysMeasures_PhysGyros[2]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>alim3V3</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_PhysMeasures_alim3V3"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>VRef Epson</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_PhysMeasures_VRefEpson"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>VRef IDG</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_PhysMeasures_VRefIDG"}}'>---</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

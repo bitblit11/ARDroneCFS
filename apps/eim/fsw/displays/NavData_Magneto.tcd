@@ -1,0 +1,108 @@
+<html>
+  <head>
+    <title>EIM NavData - Magneto</title>
+  </head>
+  <body>
+    <div class="table-wrapper">
+      <table class="table table-striped table-condensed">
+        <caption>Effector Interface Module - NavData Magneto</caption>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ground Time</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Magneto_MX.GndTime"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>UAS Time</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Magneto_MX.UASTime"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Magneto M X</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Magneto_MX"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Magneto M Y</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Magneto_MY"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Magneto M Z</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Magneto_MZ"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Magneto Raw X</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Magneto_RawX"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Magneto Raw Y</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Magneto_RawY"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Magneto Raw Z</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Magneto_RawZ"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Magneto Rectified X</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Magneto_RectifiedX"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Magneto Rectified Y</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Magneto_RectifiedY"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Magneto Rectified Z</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Magneto_RectifiedZ"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Magneto Offset X</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Magneto_OffsetX"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Magneto Offset Y</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Magneto_OffsetY"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Magneto Offset Z</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Magneto_OffsetZ"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Magneto Heading Unwrapped</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Magneto_HeadingUnwrapped"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Magneto Gyro Unwrapped</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Magneto_GyroUnwrapped"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Magneto Fusion Unwrapped</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Magneto_FusionUnwrapped"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Magneto Calibration OK</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Magneto_CalibrationOK"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Magneto State</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Magneto_State"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Magneto Radius</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Magneto_Radius"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Magneto Error Mean</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Magneto_ErrorMean"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Magneto Error Var</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Magneto_ErrorVar"}}'>---</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

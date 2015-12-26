@@ -1,0 +1,80 @@
+<html>
+  <head>
+    <title>EIM - Altitude</title>
+  </head>
+  <body>
+    <div class="table-wrapper">
+      <table class="table table-striped table-condensed">
+        <caption>Effector Interface Module - Altitude</caption>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ground Time</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Altitude_Vision.GndTime"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>UAS Time</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Altitude_Vision.UASTime"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Vision</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Altitude_Vision"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>VZ</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Altitude_VZ"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Ref</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Altitude_Ref"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Raw</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Altitude_Raw"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Obs Acc Z</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Altitude_ObsAccZ"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Obs Alt</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Altitude_ObsAlt"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Obs XX</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Altitude_ObsXX"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Obs XY</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Altitude_ObsXY"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Obs XZ</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Altitude_ObsXZ"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Obs State</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Altitude_ObsState"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Est VBX</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Altitude_EstVBX"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Est VBY</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Altitude_EstVBY"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>State</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Altitude_State"}}'>---</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

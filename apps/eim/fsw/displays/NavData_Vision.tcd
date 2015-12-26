@@ -1,0 +1,116 @@
+<html>
+  <head>
+    <title>EIM - Vision</title>
+  </head>
+  <body>
+    <div class="table-wrapper">
+      <table class="table table-striped table-condensed">
+        <caption>Effector Interface Module - Vision</caption>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ground Time</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Vision_State.GndTime"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>UAS Time</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Vision_State.UASTime"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>State</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Vision_State"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Misc</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Vision_Misc"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Phi Trim</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Vision_PhiTrim"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Phi Ref Prop</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Vision_PhiRefProp"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Theta Trim</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Vision_ThetaTrim"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Theta Ref Prop</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Vision_ThetaRefProp"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>New Raw Picture</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Vision_NewRawPicture"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Theta Capture</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Vision_ThetaCapture"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Phi Capture</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Vision_PhiCapture"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Psi Capture</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Vision_PsiCapture"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Altitude Capture</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Vision_AltitudeCapture"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Time Capture</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Vision_TimeCapture"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Body VX</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Vision_BodyVX"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Body VY</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Vision_BodyVY"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Body VZ</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Vision_BodyVZ"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Delta Phi</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Vision_DeltaPhi"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Delta Theta</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Vision_DeltaTheta"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Delta Psi</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Vision_DeltaPsi"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Gold Defined</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Vision_GoldDefined"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Gold Reset</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Vision_GoldReset"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Gold X</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Vision_GoldX"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Gold Y</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Vision_GoldY"}}'>---</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

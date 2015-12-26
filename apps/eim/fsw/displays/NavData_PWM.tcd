@@ -1,0 +1,132 @@
+<html>
+  <head>
+    <title>EIM - PWM</title>
+  </head>
+  <body>
+    <div class="table-wrapper">
+      <table class="table table-striped table-condensed">
+        <caption>Effector Interface Module - PWM</caption>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ground Time</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_PWM_Motor1.GndTime"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>UAS Time</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_PWM_Motor1.UASTime"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Motor 1</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_PWM_Motor1"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Motor 2</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_PWM_Motor2"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Motor 3</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_PWM_Motor3"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Motor 4</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_PWM_Motor4"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Sat Motor 1</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_PWM_SatMotor1"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Sat Motor 2</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_PWM_SatMotor2"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Sat Motor 3</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_PWM_SatMotor3"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Sat Motor 4</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_PWM_SatMotor4"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Gaz Feed Forward</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_PWM_GazFeedForward"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Gaz Altitude</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_PWM_GazAltitude"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Altitude Integral</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_PWM_AltitudeIntegral"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>VZ Ref</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_PWM_VZRef"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>u Pitch</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_PWM_uPitch"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>u Roll</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_PWM_uRoll"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>u Yaw</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_PWM_uYaw"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Yaw uI</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_PWM_YawuI"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>u Pitch Planif</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_PWM_uPitchPlanif"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>u Roll Planif</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_PWM_uRollPlanif"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>u Yaw Planif</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_PWM_uYawPlanif"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>u Gaz Planif</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_PWM_uGazPlanif"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Current Motor 1</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_PWM_CurrentMotor1"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Current Motor 2</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_PWM_CurrentMotor2"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Current Motor 3</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_PWM_CurrentMotor3"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Current Motor 4</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_PWM_CurrentMotor4"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Altitude Prop</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_PWM_AltitudeProp"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Altitude Der</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_PWM_AltitudeDer"}}'>---</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

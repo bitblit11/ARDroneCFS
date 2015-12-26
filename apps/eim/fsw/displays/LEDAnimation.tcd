@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>LED Anims</title>
+  </head>
+  <body>
+    <div class="table-wrapper">
+      <table class="table table-striped table-condensed">
+        <caption>Effector Interface Module - LED Animation</caption>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ground Time</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_CmdCounter.GndTime"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>UAS Time</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_CmdCounter.UASTime"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Command Counter</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_CmdCounter"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Error Counter</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_ErrCounter"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <button class="btn btn-primary btn-xs" type="button" data-sage='{"cmd":{"Name":"EIMARD2_SetLEDAnimation"}}'>Set LED Animation</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

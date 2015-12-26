@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>EIM - Wifi</title>
+  </head>
+  <body>
+    <div class="table-wrapper">
+      <table class="table table-striped table-condensed">
+        <caption>Effector Interface Module - Wifi</caption>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ground Time</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Wifi_LinkQuality.GndTime"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>UAS Time</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Wifi_LinkQuality.UASTime"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Link Quality</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Wifi_LinkQuality"}}'>---</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

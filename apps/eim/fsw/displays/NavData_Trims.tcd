@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <title>EIM - Trims</title>
+  </head>
+  <body>
+    <div class="table-wrapper">
+      <table class="table table-striped table-condensed">
+        <caption>Effector Interface Module - Trims</caption>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ground Time</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Trims_AngularRatesTrimR.GndTime"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>UAS Time</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Trims_AngularRatesTrimR.UASTime"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Angular Rates Trim R</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Trims_AngularRatesTrimR"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Euler Angles Trim Theta</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Trims_EulerAnglesTrimTheta"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Euler Angles Trim Phi</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Trims_EulerAnglesTrimPhi"}}'>---</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

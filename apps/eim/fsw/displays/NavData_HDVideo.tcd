@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <title>EIM - HD Video</title>
+  </head>
+  <body>
+    <div class="table-wrapper">
+      <table class="table table-striped table-condensed">
+        <caption>Effector Interface Module - HD Video</caption>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ground Time</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_HDStream_State.GndTime"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>UAS Time</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_HDStream_State.UASTime"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Vision</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_HDStream_State"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Storage FIFO Numb Packets</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_HDStream_StorageFifoNbPackets"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Storage Fifo Size</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_HDStream_StorageFifoSize"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>USB Key Size</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_HDStream_USBKeySize"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>USB Key Free Space</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_HDStream_USBKeyFreeSpace"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Frame Number</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_HDStream_FrameNumber"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>USB Key Remaining Time</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_HDStream_USBKeyRemainingTime"}}'>---</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

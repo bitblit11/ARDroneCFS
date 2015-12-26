@@ -1,0 +1,112 @@
+<html>
+  <head>
+    <title>EIM NavData - Raw Measures</title>
+  </head>
+  <body>
+    <div class="table-wrapper">
+      <table class="table table-striped table-condensed">
+        <caption>Effector Interface Module - NavData Raw Measures</caption>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ground Time</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_RawMeasures_Accs[0].GndTime"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>UAS Time</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_RawMeasures_Accs[0].UASTime"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Accelerometer [0]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_RawMeasures_Accs[0]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Accelerometer [1]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_RawMeasures_Accs[1]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Accelerometer [2]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_RawMeasures_Accs[2]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Gyro [0]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_RawMeasures_Gyros[0]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Gyro [1]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_RawMeasures_Gyros[1]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Gyro [2]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_RawMeasures_Gyros[2]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Gyro 110 [0]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_RawMeasures_Gyros110[0]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Gyro 110 [1]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_RawMeasures_Gyros110[1]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>VBat</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_RawMeasures_VBatRaw"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Ultrasonic Out</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_RawMeasures_USDebutEcho"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Ultrasonic Return</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_RawMeasures_USFinEcho"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Ultrasonic Association</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_RawMeasures_USAssociationEcho"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Ultrasonic Distance</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_RawMeasures_USDistanceEcho"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Ultrasonic Courbe Temps</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_RawMeasures_USCourbeTemps"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Ultrasonic Courbe Valeur</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_RawMeasures_USCourbeValeur"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Ultrasonic Courbe Ref</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_RawMeasures_USCourbeRef"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Flag Echo Ini</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_RawMeasures_FlagEchoIni"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>NB Echo</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_RawMeasures_NBEcho"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Sum Echo</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_RawMeasures_SumEcho"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Altimeter Temperature</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_RawMeasures_AltTempRaw"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Gradient</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_RawMeasures_Gradient"}}'>---</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <title>EIM - Gyro Offsets</title>
+  </head>
+  <body>
+    <div class="table-wrapper">
+      <table class="table table-striped table-condensed">
+        <caption>Effector Interface Module - Gyro Offsets</caption>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ground Time</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_GyroOffsets_Offset[0].GndTime"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>UAS Time</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_GyroOffsets_Offset[0].UASTime"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Offset[0]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_GyroOffsets_Offset[0]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Offset[1]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_GyroOffsets_Offset[1]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Offset[2]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_GyroOffsets_Offset[2]"}}'>---</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

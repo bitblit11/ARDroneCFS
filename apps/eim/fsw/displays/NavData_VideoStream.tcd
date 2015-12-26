@@ -1,0 +1,115 @@
+<html>
+  <head>
+    <title>EIM - Video</title>
+  </head>
+  <body>
+    <div class="table-wrapper">
+      <table class="table table-striped table-condensed">
+        <caption>Effector Interface Module - Video Stream</caption>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ground Time</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VideoStream_Quant.GndTime"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>UAS Time</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VideoStream_Quant.UASTime"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Quant</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VideoStream_Quant"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Frame Size</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VideoStream_FrameSize"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>AT Cmd Ref Seq</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VideoStream_AtCmdRefSeq"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>AT Cmd Mean Ref Gap</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VideoStream_AtCmdMeanRefGap"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>AT Cmd Var Ref Gap</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VideoStream_AtCmdVarRefGap"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>AT Cmd Ref Quality</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VideoStream_AtCmdRefQuality"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Out Bitrate</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VideoStream_OutBitRate"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Desired Bitrate</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VideoStream_DesiredBitRate"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Data 1</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VideoStream_Data1"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Data 2</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VideoStream_Data2"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Data 3</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VideoStream_Data3"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Data 4</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VideoStream_Data4"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Data 5</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VideoStream_Data5"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>TCP Queue Level</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VideoStream_TCPQueueLevel"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>FIFO Queue Level</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VideoStream_FIFOQueueLevel"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Misc Commands</td>
+            <td>
+              <button class="btn btn-primary btn-xs" type="button" data-sage='{"cmd":{"Name":"EIMARD2_EnableVideo"}}'>Enable Video</button>
+              <button class="btn btn-primary btn-xs" type="button" data-sage='{"cmd":{"Name":"EIMARD2_DisableVideo"}}'>Disable Video</button>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <button class="btn btn-primary btn-xs" type="button" data-sage='{"cmd":{"Name":"EIMARD2_SetVideoCodecFPS"}}'>Set FPS</button>
+              <button class="btn btn-primary btn-xs" type="button" data-sage='{"cmd":{"Name":"EIMARD2_SetVideoCodec"}}'>Set Codec</button>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <button class="btn btn-primary btn-xs" type="button" data-sage='{"cmd":{"Name":"EIMARD2_SetVideoSlices"}}'>Set Slices</button>
+              <button class="btn btn-primary btn-xs" type="button" data-sage='{"cmd":{"Name":"EIMARD2_SetVideoBitRate"}}'>Set Bitrate</button>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <button class="btn btn-primary btn-xs" type="button" data-sage='{"cmd":{"Name":"EIMARD2_SetMaxVideoBitRate"}}'>Set Max Bitrate</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

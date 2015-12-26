@@ -1,0 +1,80 @@
+<html>
+  <head>
+    <title>EIM NavData - Wind</title>
+  </head>
+  <body>
+    <div class="table-wrapper">
+      <table class="table table-striped table-condensed">
+        <caption>Effector Interface Module - NavData Wind</caption>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ground Time</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Wind_Speed.GndTime"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>UAS Time</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Wind_Speed.UASTime"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Speed</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Wind_Speed"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Angle</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Wind_Angle"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Compensation Theta</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Wind_CompensationTheta"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Compensation Phi</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Wind_CompensationPhi"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>X1</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Wind_X1"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>X2</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Wind_X2"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>X3</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Wind_X3"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>X4</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Wind_X4"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>X5</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Wind_X5"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>X6</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Wind_X6"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Magneto Debug 1</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Wind_MagnetoDebug1"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Magneto Debug 2</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Wind_MagnetoDebug2"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Magneto Debug 3</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Wind_MagnetoDebug3"}}'>---</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

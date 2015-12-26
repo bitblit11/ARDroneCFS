@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <title>EIM Events</title>
+  </head>
+  <body>
+    <div class="table-wrapper">
+      <table class="table table-striped table-condensed">
+        <caption>Effector Interface Module - Events</caption>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Event Type</td>
+            <td>
+              <button class="btn btn-primary btn-xs" type="button" data-sage='{"cmd":{"Name":"CFE_EVS_EnableAppEventType_EIM"}}'>Enable</button>
+              <button class="btn btn-primary btn-xs" type="button" data-sage='{"cmd":{"Name":"CFE_EVS_DisableAppEventType_EIM"}}'>Disable</button>
+            </td>
+          </tr>
+          <tr>
+            <td>Event</td>
+            <td>
+              <button class="btn btn-primary btn-xs" type="button" data-sage='{"cmd":{"Name":"CFE_EVS_EnableAppEvent_EIM"}}'>Enable</button>
+              <button class="btn btn-primary btn-xs" type="button" data-sage='{"cmd":{"Name":"CFE_EVS_DisableAppEvent_EIM"}}'>Disable</button>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <button class="btn btn-primary btn-xs" type="button" data-sage='{"cmd":{"Name":"CFE_EVS_ResetAppCounter_EIM"}}'>Reset App Counter</button>
+            </td>
+          </tr>
+          <tr>
+            <td>Event Filter</td>
+            <td>
+              <button class="btn btn-primary btn-xs" type="button" data-sage='{"cmd":{"Name":"CFE_EVS_SetFilter_EIM"}}'>Set</button>
+              <button class="btn btn-primary btn-xs" type="button" data-sage='{"cmd":{"Name":"CFE_EVS_ResetFilter_EIM"}}'>Reset</button>
+              <button class="btn btn-primary btn-xs" type="button" data-sage='{"cmd":{"Name":"CFE_EVS_ResetAllFilters_EIM"}}'>Reset All</button>
+              <button class="btn btn-primary btn-xs" type="button" data-sage='{"cmd":{"Name":"CFE_EVS_AddEventFilter_EIM"}}'>Add</button>
+              <button class="btn btn-primary btn-xs" type="button" data-sage='{"cmd":{"Name":"CFE_EVS_DeleteEventFilter_EIM"}}'>Delete</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

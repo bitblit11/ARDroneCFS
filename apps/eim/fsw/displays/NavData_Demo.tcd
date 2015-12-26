@@ -1,0 +1,179 @@
+<html>
+  <head>
+    <title>EIM NavData - Demo</title>
+  </head>
+  <body>
+    <div class="table-wrapper">
+      <table class="table table-striped table-condensed">
+        <caption>Effector Interface Module - NavData Demo</caption>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ground Time</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_CtrlState.GndTime"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>UAS Time</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_CtrlState.UASTime"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Control State</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_CtrlState"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <button class="btn btn-primary btn-xs" type="button" data-sage='{"cmd":{"Name":"EIM_SetControlMode"}}'>Set Control Mode</button>
+              <button class="btn btn-primary btn-xs" type="button" data-sage='{"cmd":{"Name":"EIM_EmergencyStop"}}'>Stop</button>
+              <button class="btn btn-primary btn-xs" type="button" data-sage='{"cmd":{"Name":"EIM_EmergencyStopReset"}}'>Stop Reset</button>
+              <button class="btn btn-primary btn-xs" type="button" data-sage='{"cmd":{"Name":"EIM_Launch"}}'>Launch</button>
+              <button class="btn btn-primary btn-xs" type="button" data-sage='{"cmd":{"Name":"EIM_Land"}}'>Land</button>
+              <button class="btn btn-primary btn-xs" type="button" data-sage='{"cmd":{"Name":"EIM_Hover"}}'>Hover</button>
+            </td>
+          </tr>
+          <tr>
+            <td>Theta Angle</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Theta"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Phi Angle</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Phi"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Psi Angle</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Psi"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Altitude</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Altitude"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>X Velocity</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VX"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Y Velocity</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VY"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Z Velocity</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VZ"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Frame Number</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_FrameNum"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Detection Camera Rot M00</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_DetectionCameraRotM00"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Detection Camera Rot M01</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_DetectionCameraRotM01"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Detection Camera Rot M02</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_DetectionCameraRotM02"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Detection Camera Rot M10</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_DetectionCameraRotM10"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Detection Camera Rot M11</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_DetectionCameraRotM11"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Detection Camera Rot M12</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_DetectionCameraRotM12"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Detection Camera Rot M20</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_DetectionCameraRotM20"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Detection Camera Rot M21</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_DetectionCameraRotM21"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Detection Camera Rot M22</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_DetectionCameraRotM22"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Detection Camera Trans X</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_DetectionCameraTransX"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Detection Camera Trans Y</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_DetectionCameraTransY"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Detection Camera Trans Z</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_DetectionCameraTransZ"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Detection Tag Index</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_DetectionTagIndex"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Detection Camera Type</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_DetectionCameraType"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Drone Camera Rot M00</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_DroneCameraRotM00"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Drone Camera Rot M01</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_DroneCameraRotM01"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Drone Camera Rot M02</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_DroneCameraRotM02"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Drone Camera Rot M10</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_DroneCameraRotM10"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Drone Camera Rot M11</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_DroneCameraRotM11"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Drone Camera Rot M12</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_DroneCameraRotM12"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Drone Camera Rot M20</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_DroneCameraRotM20"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Drone Camera Rot M21</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_DroneCameraRotM21"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Drone Camera Rot M22</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_DroneCameraRotM22"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Drone Camera Trans X</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_DroneCameraTransX"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Drone Camera Trans Y</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_DroneCameraTransY"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Drone Camera Trans Z</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_DroneCameraTransZ"}}'>---</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

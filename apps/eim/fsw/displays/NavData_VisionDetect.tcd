@@ -1,0 +1,352 @@
+<html>
+  <head>
+    <title>EIM - Vision Detect</title>
+  </head>
+  <body>
+    <div class="table-wrapper">
+      <table class="table table-striped table-condensed">
+        <caption>Effector Interface Module - Vision Detect</caption>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ground Time</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_NbDetected.GndTime"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>UAS Time</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_NbDetected.UASTime"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Number Detected</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_NbDetected"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Type[0]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Type[0]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Type[1]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Type[1]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Type[2]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Type[2]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Type[3]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Type[3]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>XC[0]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_XC[0]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>XC[1]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_XC[1]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>XC[2]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_XC[2]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>XC[3]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_XC[3]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>YC[0]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_YC[0]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>YC[1]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_YC[1]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>YC[2]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_YC[2]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>YC[3]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_YC[3]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Width[0]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Width[0]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Width[1]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Width[1]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Width[2]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Width[2]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Width[3]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Width[3]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Height[0]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Height[0]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Height[1]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Height[1]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Height[2]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Height[2]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Height[3]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Height[3]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Dist[0]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Dist[0]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Dist[1]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Dist[1]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Dist[2]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Dist[2]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Dist[3]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Dist[3]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Orientation Angle[0]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_OrientationAngle[0]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Orientation Angle[1]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_OrientationAngle[1]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Orientation Angle[2]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_OrientationAngle[2]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Orientation Angle[3]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_OrientationAngle[3]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Rotation[0] M[0][0]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Rotation[0]_M[0][0]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Rotation[0] M[0][1]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Rotation[0]_M[0][1]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Rotation[0] M[0][2]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Rotation[0]_M[0][2]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Rotation[0] M[1][0]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Rotation[0]_M[1][0]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Rotation[0] M[1][1]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Rotation[0]_M[1][1]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Rotation[0] M[1][2]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Rotation[0]_M[1][2]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Rotation[0] M[2][0]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Rotation[0]_M[2][0]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Rotation[0] M[2][1]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Rotation[0]_M[2][1]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Rotation[0] M[2][2]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Rotation[0]_M[2][2]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Rotation[1] M[0][0]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Rotation[1]_M[0][0]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Rotation[1] M[0][1]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Rotation[1]_M[0][1]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Rotation[1] M[0][2]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Rotation[1]_M[0][2]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Rotation[1] M[1][0]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Rotation[1]_M[1][0]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Rotation[1] M[1][1]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Rotation[1]_M[1][1]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Rotation[1] M[1][2]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Rotation[1]_M[1][2]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Rotation[1] M[2][0]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Rotation[1]_M[2][0]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Rotation[1] M[2][1]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Rotation[1]_M[2][1]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Rotation[1] M[2][2]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Rotation[1]_M[2][2]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Rotation[2] M[0][0]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Rotation[2]_M[0][0]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Rotation[2] M[0][1]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Rotation[2]_M[0][1]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Rotation[2] M[0][2]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Rotation[2]_M[0][2]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Rotation[2] M[1][0]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Rotation[2]_M[1][0]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Rotation[2] M[1][1]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Rotation[2]_M[1][1]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Rotation[2] M[1][2]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Rotation[2]_M[1][2]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Rotation[2] M[2][0]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Rotation[2]_M[2][0]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Rotation[2] M[2][1]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Rotation[2]_M[2][1]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Rotation[2] M[2][2]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Rotation[2]_M[2][2]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Rotation[3] M[0][0]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Rotation[3]_M[0][0]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Rotation[3] M[0][1]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Rotation[3]_M[0][1]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Rotation[3] M[0][2]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Rotation[3]_M[0][2]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Rotation[3] M[1][0]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Rotation[3]_M[1][0]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Rotation[3] M[1][1]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Rotation[3]_M[1][1]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Rotation[3] M[1][2]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Rotation[3]_M[1][2]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Rotation[3] M[2][0]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Rotation[3]_M[2][0]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Rotation[3] M[2][1]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Rotation[3]_M[2][1]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Rotation[3] M[2][2]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Rotation[3]_M[2][2]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Translation[0] X</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Translation[0]_X"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Translation[0] Y</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Translation[0]_Y"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Translation[0] Z</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Translation[0]_Z"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Translation[1] X</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Translation[1]_X"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Translation[1] Y</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Translation[1]_Y"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Translation[1] Z</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Translation[1]_Z"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Translation[2] X</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Translation[2]_X"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Translation[2] Y</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Translation[2]_Y"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Translation[2] Z</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Translation[2]_Z"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Translation[3] X</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Translation[3]_X"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Translation[3] Y</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Translation[3]_Y"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Translation[3] Z</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_Translation[3]_Z"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Camera Source [0]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_CameraSource[0]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Camera Source [1]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_CameraSource[1]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Camera Source [2]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_CameraSource[2]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Camera Source [3]</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDetect_CameraSource[3]"}}'>---</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

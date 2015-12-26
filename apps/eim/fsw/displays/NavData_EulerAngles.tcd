@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>EIM - Euler Angles</title>
+  </head>
+  <body>
+    <div class="table-wrapper">
+      <table class="table table-striped table-condensed">
+        <caption>Effector Interface Module - Euler Angles</caption>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ground Time</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_EulerAngles_Theta.GndTime"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>UAS Time</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_EulerAngles_Theta.UASTime"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Theta</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_EulerAngles_Theta"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Phi</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_EulerAngles_Phi"}}'>---</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

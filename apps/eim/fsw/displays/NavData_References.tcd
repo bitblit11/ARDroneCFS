@@ -1,0 +1,112 @@
+<html>
+  <head>
+    <title>EIM - Refs</title>
+  </head>
+  <body>
+    <div class="table-wrapper">
+      <table class="table table-striped table-condensed">
+        <caption>Effector Interface Module - References</caption>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ground Time</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_References_Theta.GndTime"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>UAS Time</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_References_Theta.UASTime"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Theta</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_References_Theta"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Phi</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_References_Phi"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Theta I</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_References_ThetaI"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Phi I</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_References_PhiI"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Pitch</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_References_Pitch"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Roll</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_References_Roll"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Yaw</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_References_Yaw"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Psi</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_References_Psi"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>VX Ref</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_References_VXRef"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>VYRef</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_References_VYRef"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Theta Mod</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_References_ThetaMod"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Phi Mod</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_References_PhiMod"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>KVX</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_References_KVX"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>KVY</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_References_KVY"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>K Mode</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_References_KMode"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>UI Time</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_References_UITime"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>UI Theta</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_References_UITheta"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>UI Phi</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_References_UIPhi"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>UI Psi</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_References_UIPsi"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>UI Psi Accuracy</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_References_UIPsiAccuracy"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>UI Seq</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_References_UISeq"}}'>---</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

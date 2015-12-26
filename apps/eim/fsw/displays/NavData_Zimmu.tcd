@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>EIM NavData - Zimmu</title>
+  </head>
+  <body>
+    <div class="table-wrapper">
+      <table class="table table-striped table-condensed">
+        <caption>Effector Interface Module - NavData Zimmu</caption>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ground Time</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Zimmu_vzimmuLSB.GndTime"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>UAS Time</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Zimmu_vzimmuLSB.UASTime"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>vzimmuLSB</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Zimmu_vzimmuLSB"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>vzfind</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_Zimmu_vzfind"}}'>---</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,322 @@
+<html>
+  <head>
+    <title>EIM HK</title>
+  </head>
+  <body>
+    <div class="table-wrapper">
+      <table class="table table-striped table-condensed">
+        <caption>Effector Interface Module - Housekeeping</caption>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ground Time</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_CmdCounter.GndTime"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>UAS Time</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_CmdCounter.UASTime"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Command Counter</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_CmdCounter"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Error Counter</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_ErrCounter"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <button class="btn btn-primary btn-xs" type="button" data-sage='{"cmd":{"Name":"EIMARD2_NoOp"}}'>NoOp</button>
+              <button class="btn btn-primary btn-xs" type="button" data-sage='{"cmd":{"Name":"EIMARD2_ResetStatus"}}'>Reset</button>
+            </td>
+          </tr>
+          <tr>
+            <td>NavData State</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_NavDataState"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <button class="btn btn-primary btn-xs" type="button" data-sage='{"cmd":{"Name":"EIMARD2_EnableNavData"}}'>Enable</button>
+              <button class="btn btn-primary btn-xs" type="button" data-sage='{"cmd":{"Name":"EIMARD2_DisableNavData"}}'>Disable</button>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <button class="btn btn-primary btn-xs" type="button" data-sage='{"cmd":{"Name":"EIMARD2_ActivateNavDataTag"}}'>Activate Tag</button>
+              <button class="btn btn-primary btn-xs" type="button" data-sage='{"cmd":{"Name":"EIMARD2_DeactivateNavDataTag"}}'>Deactivate Tag</button>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <button class="btn btn-primary btn-xs" type="button" data-sage='{"cmd":{"Name":"EIMARD2_ActivateNavDataDemo"}}'>Activate Demo</button>
+              <button class="btn btn-primary btn-xs" type="button" data-sage='{"cmd":{"Name":"EIMARD2_DeactivateNavDataDemo"}}'>Deactivate Demo</button>
+            </td>
+          </tr>
+          <tr>
+            <td>Camera</td>
+            <td><input type="checkbox" data-sage='{"tlm":{"Name":"EIMARD2_ARDroneState_Camera"}}'></input></td>
+          </tr>
+          <tr>
+            <td>Command Received</td>
+            <td><input type="checkbox" data-sage='{"tlm":{"Name":"EIMARD2_ARDroneState_CommandReceived"}}'></input></td>
+          </tr>
+          <tr>
+            <td>User Feedback Start</td>
+            <td><input type="checkbox" data-sage='{"tlm":{"Name":"EIMARD2_ARDroneState_UserFeedbackStart"}}'></input></td>
+          </tr>
+          <tr>
+            <td>Altitude Control Algorithm</td>
+            <td><input type="checkbox" data-sage='{"tlm":{"Name":"EIMARD2_ARDroneState_AltControlAlgo"}}'></input></td>
+          </tr>
+          <tr>
+            <td>Control Algorithm</td>
+            <td><input type="checkbox" data-sage='{"tlm":{"Name":"EIMARD2_ARDroneState_ControlAlgo"}}'></input></td>
+            <td><span data-sage='{"tlm":{"Name":""}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Vision</td>
+            <td><input type="checkbox" data-sage='{"tlm":{"Name":"EIMARD2_ARDroneState_Vision"}}'></input></td>
+          </tr>
+          <tr>
+            <td>Video</td>
+            <td><input type="checkbox" data-sage='{"tlm":{"Name":"EIMARD2_ARDroneState_Video"}}'></input></td>
+          </tr>
+          <tr>
+            <td>Fly</td>
+            <td><input type="checkbox" data-sage='{"tlm":{"Name":"EIMARD2_ARDroneState_Fly"}}'></input></td>
+          </tr>
+          <tr>
+            <td>Battery</td>
+            <td><input type="checkbox" data-sage='{"tlm":{"Name":"EIMARD2_ARDroneState_VBat"}}'></input></td>
+          </tr>
+          <tr>
+            <td>Software</td>
+            <td><input type="checkbox" data-sage='{"tlm":{"Name":"EIMARD2_ARDroneState_Software"}}'></input></td>
+          </tr>
+          <tr>
+            <td>Comms</td>
+            <td><input type="checkbox" data-sage='{"tlm":{"Name":"EIMARD2_ARDroneState_Comm"}}'></input></td>
+          </tr>
+          <tr>
+            <td>Motors</td>
+            <td><input type="checkbox" data-sage='{"tlm":{"Name":"EIMARD2_ARDroneState_Motors"}}'></input></td>
+          </tr>
+          <tr>
+            <td>Bootstrap</td>
+            <td><input type="checkbox" data-sage='{"tlm":{"Name":"EIMARD2_ARDroneState_Bootstrap"}}'></input></td>
+            <td><span data-sage='{"tlm":{"Name":""}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Demo</td>
+            <td><input type="checkbox" data-sage='{"tlm":{"Name":"EIMARD2_ARDroneState_Demo"}}'></input></td>
+          </tr>
+          <tr>
+            <td>USB</td>
+            <td><input type="checkbox" data-sage='{"tlm":{"Name":"EIMARD2_ARDroneState_USB"}}'></input></td>
+          </tr>
+          <tr>
+            <td>Traveling</td>
+            <td><input type="checkbox" data-sage='{"tlm":{"Name":"EIMARD2_ARDroneState_Traveling"}}'></input></td>
+          </tr>
+          <tr>
+            <td>PIC Version</td>
+            <td><input type="checkbox" data-sage='{"tlm":{"Name":"EIMARD2_ARDroneState_PICVersion"}}'></input></td>
+          </tr>
+          <tr>
+            <td>Cutout</td>
+            <td><input type="checkbox" data-sage='{"tlm":{"Name":"EIMARD2_ARDroneState_Cutout"}}'></input></td>
+          </tr>
+          <tr>
+            <td>Ultrasonic Altimeter</td>
+            <td><input type="checkbox" data-sage='{"tlm":{"Name":"EIMARD2_ARDroneState_UltrasonicAltimeter"}}'></input></td>
+          </tr>
+          <tr>
+            <td>Wind</td>
+            <td><input type="checkbox" data-sage='{"tlm":{"Name":"EIMARD2_ARDroneState_Wind"}}'></input></td>
+          </tr>
+          <tr>
+            <td>Angles</td>
+            <td><input type="checkbox" data-sage='{"tlm":{"Name":"EIMARD2_ARDroneState_Angles"}}'></input></td>
+          </tr>
+          <tr>
+            <td>Magnetometer Calibration</td>
+            <td><input type="checkbox" data-sage='{"tlm":{"Name":"EIMARD2_ARDroneState_MagnetoCalib"}}'></input></td>
+          </tr>
+          <tr>
+            <td>Timer</td>
+            <td><input type="checkbox" data-sage='{"tlm":{"Name":"EIMARD2_ARDroneState_Timer"}}'></input></td>
+          </tr>
+          <tr>
+            <td>User Emergency</td>
+            <td><input type="checkbox" data-sage='{"tlm":{"Name":"EIMARD2_ARDroneState_UserEmergency"}}'></input></td>
+          </tr>
+          <tr>
+            <td>Emergency</td>
+            <td><input type="checkbox" data-sage='{"tlm":{"Name":"EIMARD2_ARDroneState_Emergency"}}'></input></td>
+          </tr>
+          <tr>
+            <td>Comm Watchdog</td>
+            <td><input type="checkbox" data-sage='{"tlm":{"Name":"EIMARD2_ARDroneState_CommWatchdog"}}'></input></td>
+          </tr>
+          <tr>
+            <td>ADC Watchdog</td>
+            <td><input type="checkbox" data-sage='{"tlm":{"Name":"EIMARD2_ARDroneState_ADCWatchdog"}}'></input></td>
+          </tr>
+          <tr>
+            <td>Control Watchdog</td>
+            <td><input type="checkbox" data-sage='{"tlm":{"Name":"EIMARD2_ARDroneState_CtrlWatchdog"}}'></input></td>
+          </tr>
+          <tr>
+            <td>Acq Thread</td>
+            <td><input type="checkbox" data-sage='{"tlm":{"Name":"EIMARD2_ARDroneState_AcqThread"}}'></input></td>
+          </tr>
+          <tr>
+            <td>Video Thread</td>
+            <td><input type="checkbox" data-sage='{"tlm":{"Name":"EIMARD2_ARDroneState_VideoThread"}}'></input></td>
+          </tr>
+          <tr>
+            <td>NavData Thread</td>
+            <td><input type="checkbox" data-sage='{"tlm":{"Name":"EIMARD2_ARDroneState_NavDataThread"}}'></input></td>
+          </tr>
+          <tr>
+            <td>AT Codec Thread</td>
+            <td><input type="checkbox" data-sage='{"tlm":{"Name":"EIMARD2_ARDroneState_ATCodecThread"}}'></input></td>
+          </tr>
+          <tr>
+            <td>Vision Defined</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_VisionDefined"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Skip Frames</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_SkipFrames"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Demo Count</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_NavData_DemoCount"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Time Count</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_NavData_TimeCount"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Raw Measures Count</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_NavData_RawMeasuresCount"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Raw Pressures Count</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_NavData_PressureRawCount"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Magnetometer Count</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_NavData_MagnetoCount"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Wind Speed Count</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_NavData_WindSpeedCount"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Kalman Pressure Count</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_NavData_KalmanPressureCount"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Zimmu 3000 Count</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_NavData_Zimmu3000Count"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Physical Measures Count</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_NavData_PhysMeasuresCount"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Gyro Offsets Count</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_NavData_GyroOffsetsCount"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Euler Angles Count</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_NavData_EulerAnglesCount"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>References Count</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_NavData_ReferencesCount"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Trims Count</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_NavData_TrimsCount"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>RC References Count</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_NavData_RCReferencesCount"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>PWM Count</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_NavData_PWMCount"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Altitude Count</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_NavData_AltitudeCount"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Vision Raw Count</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_NavData_VisionRawCount"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Vision Count</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_NavData_VisionCount"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Vision Perf Count</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_NavData_VisionPerfCount"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Trackers Send Count</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_NavData_TrackersSendCount"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Vision Detect Count</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_NavData_VisionDetectCount"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Vision Of Count</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_NavData_VisionOfCount"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Watchdog Count</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_NavData_WatchdogCount"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>ADC Data Frame Count</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_NavData_ADCDataFrameCount"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Video Stream Count</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_NavData_VideoStreamCount"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>HD Video Stream Count</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_NavData_HDVideoStreamCount"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Games Count</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_NavData_GamesCount"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Wifi Count</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_NavData_WifiCount"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Timed Out</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_ARDrone2TimedOut"}}'>---</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

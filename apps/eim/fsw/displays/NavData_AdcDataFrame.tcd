@@ -1,0 +1,192 @@
+<html>
+  <head>
+    <title>EIM - ADC Data Frame</title>
+  </head>
+  <body>
+    <div class="table-wrapper">
+      <table class="table table-striped table-condensed">
+        <caption>Effector Interface Module - ADC Data Frame</caption>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ground Time</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_AdcDataFrame_Version.GndTime"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>UAS Time</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_AdcDataFrame_Version.UASTime"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>Version</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_AdcDataFrame_Version"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>0</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_AdcDataFrame_DataFrame[0]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_AdcDataFrame_DataFrame[1]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_AdcDataFrame_DataFrame[2]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_AdcDataFrame_DataFrame[3]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_AdcDataFrame_DataFrame[4]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_AdcDataFrame_DataFrame[5]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_AdcDataFrame_DataFrame[6]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_AdcDataFrame_DataFrame[7]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_AdcDataFrame_DataFrame[8]}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_AdcDataFrame_DataFrame[9]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_AdcDataFrame_DataFrame[10]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>11</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_AdcDataFrame_DataFrame[11]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>12</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_AdcDataFrame_DataFrame[12]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>13</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_AdcDataFrame_DataFrame[13]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>14</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_AdcDataFrame_DataFrame[14]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>15</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_AdcDataFrame_DataFrame[15]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>16</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_AdcDataFrame_DataFrame[16]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>17</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_AdcDataFrame_DataFrame[17]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>18</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_AdcDataFrame_DataFrame[18]}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>19</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_AdcDataFrame_DataFrame[19]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>20</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_AdcDataFrame_DataFrame[20]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>21</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_AdcDataFrame_DataFrame[21]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>22</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_AdcDataFrame_DataFrame[22]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>23</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_AdcDataFrame_DataFrame[23]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>24</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_AdcDataFrame_DataFrame[24]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>25</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_AdcDataFrame_DataFrame[25]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>26</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_AdcDataFrame_DataFrame[26]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>27</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_AdcDataFrame_DataFrame[27]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>28</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_AdcDataFrame_DataFrame[28]}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>29</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_AdcDataFrame_DataFrame[29]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>30</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_AdcDataFrame_DataFrame[30]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>31</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_AdcDataFrame_DataFrame[31]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_AdcDataFrame_DataFrame[2]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_AdcDataFrame_DataFrame[3]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_AdcDataFrame_DataFrame[4]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_AdcDataFrame_DataFrame[5]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_AdcDataFrame_DataFrame[6]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_AdcDataFrame_DataFrame[7]"}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_AdcDataFrame_DataFrame[8]}}'>---</span></td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td><span data-sage='{"tlm":{"Name":"EIMARD2_AdcDataFrame_DataFrame[9]"}}'>---</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
