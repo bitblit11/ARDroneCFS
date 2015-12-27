@@ -23,3 +23,4 @@ set(ENV{MISSION_TEMPLATE_VERSION} 3.0.1)
 enable_testing()
 
 add_subdirectory(config/softsim softsim)
+add_subdirectory(config/ardrone ardrone)
