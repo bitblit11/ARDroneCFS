@@ -5,7 +5,7 @@ enable_testing()
 set(BUILDNAME "SoftSim")
 
 # Set the PSP and OS
-set(PSP "pc-linux")
+set(PSP "ardrone2")
 set(OS "posix")
 
 # Create the sysroot directory and copy the startup script.
