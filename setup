@@ -2,5 +2,5 @@
 git submodule update --init --recursive
 (mkdir ardtool; cd ardtool; wget https://bitbucket.org/multidest/ardronetools/downloads/ardrone-toolchain.tar.xz; tar xf ardrone-toolchain.tar.xz)
 (chmod u+w -R ardtool; rm -f ardtool/ardrone-toolchain.tar.xz)
-(rm -Rf build; mkdir -p build; cd build; cmake ..)
-
+(mkdir -p config/softsim/build; cd config/softsim/build; cmake ..)
+(mkdir -p config/ardrone/build; cd config/ardrone/build; cmake ..)
