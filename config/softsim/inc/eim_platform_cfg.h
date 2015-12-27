@@ -14,8 +14,8 @@
 #define EIM_MAX_NAV_BUFFER_SIZE					1024
 #define EIM_MAX_AT_BUFFER_SIZE					1024
 //#define EIM_WIFI_IP 							"10.0.254.86"
-#define EIM_WIFI_IP 							"127.0.0.1"
-//#define EIM_WIFI_IP 							"192.168.1.1"
+//#define EIM_WIFI_IP 							"127.0.0.1"
+#define EIM_WIFI_IP 							"192.168.1.1"
 #define EIM_AT_PORT   							5556
 #define EIM_WATCHDOG_PERIOD						1000000
 #define EIM_NAVDATA_MAX_CUSTOM_TIME_SAVE 		20

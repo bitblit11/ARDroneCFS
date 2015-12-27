@@ -3,7 +3,7 @@ CFE_APP, /cf/apps/SCH.so,   	SCH_AppMain,     SCH,       34,  4096, 0x0, 0;
 CFE_APP, /cf/apps/TO.so,     TO_AppMain,      TO,	    80, 32768, 0x0, 0;
 CFE_APP, /cf/apps/CI.so, 	CI_AppMain,      CI,		43, 32768, 0x0, 0;
 CFE_APP, /cf/apps/EIM.so,    EIM_AppMain,     EIM,       46, 32768, 0x0, 0;
-!CFE_APP, /cf/apps/HK.so,    	HK_AppMain,      HK,        70, 32768, 0x0, 0;
+CFE_APP, /cf/apps/HK.so,    	HK_AppMain,      HK,        70, 32768, 0x0, 0;
 CFE_APP, /cf/apps/FM.so,    	FM_AppMain,   	 FM,		65, 32768, 0x0, 0;
 CFE_APP, /cf/apps/CS.so,    	CS_AppMain,   	 CS,		55, 32768, 0x0, 0;
 CFE_APP, /cf/apps/DS.so,    	DS_AppMain,   	 DS,		60,	32768, 0x0, 0;
@@ -11,10 +11,10 @@ CFE_APP, /cf/apps/LC.so,    	LC_AppMain,   	 LC,		94, 32768, 0x0, 0;
 CFE_APP, /cf/apps/MD.so,    	MD_AppMain,   	 MD,		85, 32768, 0x0, 0;
 CFE_APP, /cf/apps/MM.so,     MM_AppMain,      MM,        88, 32768, 0x0, 0;
 CFE_APP, /cf/apps/SC.so,     SC_AppMain,      SC,        91, 32768, 0x0, 0;
-CFE_APP, /cf/apps/HS.so,     HS_AppMain,      HS,        123, 32768, 0x0, 0;
 CFE_APP, /cf/apps/EIM.so, 	EIM_AppMain,     EIM,		40, 32768, 0x0, 0;
+CFE_APP, /cf/apps/CF.so,       CF_AppMain,      CF,        50, 32768, 0x0, 0;
 !CFE_APP, /cf/apps/SBN.so,    SBN_AppMain,     SBN,       37, 32768, 0x0, 0;
-!CFE_APP, /cf/apps/CF.so,		CF_AppMain,	 	 CF,	    50, 32768, 0x0, 0;
+CFE_APP, /cf/apps/HS.so,     HS_AppMain,      HS,        123, 32768, 0x0, 0;
 !
 ! Startup script fields:
 ! 1. Object Type      -- CFE_APP for an Application, or CFE_LIB for a library.

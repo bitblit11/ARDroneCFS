@@ -418,9 +418,9 @@ TO_Table_t to_ConfigTable =
 		{ TO_QUEUE_UNUSED,    0,    0, 0, 0, 0, 0, 0}
 	},
 	{
-		{TO_CHANNEL_ENABLED, "127.0.0.1", 14550, 0 },
-		{TO_CHANNEL_ENABLED, "127.0.0.1",  5011, 0 },
-		{TO_CHANNEL_ENABLED, "127.0.0.1",  1234, 0 }
+		{TO_CHANNEL_ENABLED, "192.168.1.2", 14550, 0 },
+		{TO_CHANNEL_ENABLED, "192.168.1.2",  5011, 0 },
+		{TO_CHANNEL_ENABLED, "192.168.1.2",  1234, 0 }
 	}
 };
 
