@@ -5,6 +5,8 @@ enable_testing()
 set(BUILDNAME "SoftSim")
 project(ardrone)
 
+set(SYSROOT "/srv/nfs")
+
 add_subdirectory(../.. main)
 
 # Set the PSP and OS
@@ -12,15 +14,15 @@ set(PSP "ardrone2")
 set(OS "posix")
 
 # Create the sysroot directory and copy the startup script.
-file(MAKE_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/sysroot/cf/apps)
-file(MAKE_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/sysroot/cf/download)
-file(MAKE_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/sysroot/cf/log)
-file(MAKE_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/sysroot/cf/upload)
-file(MAKE_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/sysroot/ram)
-configure_file(cfe_es_startup.scr ${CMAKE_CURRENT_BINARY_DIR}/sysroot/cf/apps COPYONLY)
+file(MAKE_DIRECTORY ${SYSROOT}/cf/apps)
+file(MAKE_DIRECTORY ${SYSROOT}/cf/download)
+file(MAKE_DIRECTORY ${SYSROOT}/cf/log)
+file(MAKE_DIRECTORY ${SYSROOT}/cf/upload)
+file(MAKE_DIRECTORY ${SYSROOT}/ram)
+configure_file(cfe_es_startup.scr ${SYSROOT}/cf/apps COPYONLY)
 
 # Set the directory where all the build products are going to go.
-set(INSTALL_DIR	${CMAKE_CURRENT_BINARY_DIR}/sysroot/cf/apps)
+set(INSTALL_DIR	${SYSROOT}/cf/apps)
 
 # Include the global mission and build specific include directories.
 include_directories(inc)
