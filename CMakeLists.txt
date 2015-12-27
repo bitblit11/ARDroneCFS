@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.6.4)
-set(PROJECT_SOURCE_DIR .)
+set(PROJECT_SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR})
 
 set(ENV{CPUNAME} softsim)
 set(ENV{CFS_MISSION} ${CMAKE_CURRENT_SOURCE_DIR})
@@ -22,5 +22,3 @@ set(ENV{MISSION_TEMPLATE_VERSION} 3.0.1)
 
 enable_testing()
 
-add_subdirectory(config/softsim softsim)
-add_subdirectory(config/ardrone ardrone)

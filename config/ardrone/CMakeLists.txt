@@ -3,6 +3,9 @@ cmake_minimum_required(VERSION 2.6.4)
 set(PROJECT_SOURCE_DIR $ENV{CFS_MISSION})
 enable_testing()
 set(BUILDNAME "SoftSim")
+project(ardrone)
+
+add_subdirectory(../.. main)
 
 # Set the PSP and OS
 set(PSP "ardrone2")
