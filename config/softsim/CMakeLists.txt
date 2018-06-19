@@ -1,5 +1,10 @@
 cmake_minimum_required(VERSION 2.6.4)
 
+FUNCTION(add_app)
+    ADD_LIBRARY(${ARGN})
+    SET_TARGET_PROPERTIES(${ARGV0} PROPERTIES PREFIX "" )
+ENDFUNCTION()
+
 set(PROJECT_SOURCE_DIR $ENV{CFS_MISSION})
 enable_testing()
 set(BUILDNAME "SoftSim")
