@@ -15,4 +15,4 @@ include_directories(${OSAL_INC_DIRS})
 include_directories(${PSP_INC_DIRS})
 	
 # Build application
-add_library(${APP_FILE} SHARED ${APP_SRC})
+add_app(${APP_FILE} SHARED ${APP_SRC})
