@@ -185,7 +185,7 @@
 **       The length of this string, including the NULL terminator cannot exceed 
 **       the #OS_MAX_PATH_LEN value.
 */
-#define CF_CONFIG_TABLE_FILENAME            "/cf/cf_cfgtable.tbl"
+#define CF_CONFIG_TABLE_FILENAME            "/cf/apps/cf_cfgtable.tbl"
 
 
 /**
